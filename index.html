@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="HEXAMERTLE">
-  <meta property="og:description" content="Wordle-style Latin hexameter verse puzzle">
+  <meta property="og:description" content="Latin Hexameter Puzzle">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/svg+xml" href="https://halcekey.github.io/favicon.svg">
   <title>HEXAMERTLE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <style>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">  <style>
     :root {
       --bg: #F8F5EE;
       --surface: #FFFFFF;
@@ -131,19 +130,22 @@
     }
 
     .slot {
-      min-width: 60px;
-      height: 42px;
-      padding: 0 10px;
-      border-radius: var(--radius);
-      border: 1.5px dashed var(--card-border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.05rem;
-      font-weight: 600;
-      background: rgba(255,255,255,0.4);
-      user-select: none;
-      transition: transform 0.15s, background-color 0.2s;
+    min-width: 60px;
+    height: 42px;
+    padding: 0 10px;
+    border-radius: var(--radius);
+    border: 1.5px dashed var(--card-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-serif); /* 明示的に指定 */
+    font-size: 1.15rem;
+    font-weight: 500; /* 600だと太すぎてuの底が潰れるため500に変更 */
+    font-feature-settings: "cv01" 0, "cv02" 0;
+    text-transform: none;
+    background: rgba(255,255,255,0.4);
+    user-select: none;
+    transition: transform 0.15s, background-color 0.2s;
     }
 
     .slot.correct {
@@ -184,8 +186,8 @@
       letter-spacing: 1px;
       color: var(--text-muted);
       margin-bottom: 8px;
-      text-transform: uppercase;
       text-align: center;
+      text-transform: none;
     }
 
     .current-line-slots {
@@ -207,16 +209,19 @@
     }
 
     .word-chip {
-      background: var(--surface);
-      border: 1px solid var(--card-border);
-      border-bottom: 2px solid var(--card-border);
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 1.15rem;
-      cursor: pointer;
-      user-select: none;
-      transition: all 0.15s;
-    }
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    border-bottom: 2px solid var(--card-border);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-family: var(--font-serif); /* 明示的に指定 */
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: none;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s;
+}
 
     .word-chip:hover {
       border-color: var(--primary);
@@ -295,59 +300,39 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.15);
     }
 
-    .modal-title {
-      font-family: var(--font-display);
-      font-size: 1.5rem;
-      color: var(--primary);
-      margin-bottom: 8px;
-    }
-
-    .final-verse {
-      font-size: 1.35rem;
-      font-style: italic;
-      color: var(--text);
-      margin: 16px 0;
-      padding: 12px;
-      background: var(--bg);
-      border-radius: 6px;
-    }
-
-    .verse-meta {
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      margin-bottom: 16px;
-      line-height: 1.5;
-    }
-
     .share-btn {
       background: var(--green);
       color: white;
     }
-.app-footer {
-  margin-top: auto;
-  padding: 24px 16px 16px;
-  text-align: center;
-}
 
-.footer-link-btn {
-  background: none;
-  border: none;
-  padding: 0;
-  font-family: inherit;
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
-  color: var(--text-muted);
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  opacity: 0.75;
-  transition: opacity 0.2s ease, color 0.2s ease;
-}
+    .app-footer {
+      margin-top: auto;
+      padding: 24px 16px 16px;
+      text-align: center;
+    }
 
-.footer-link-btn:hover {
-  opacity: 1;
-  color: var(--primary);
-}
+    .footer-link-btn {
+      background: none;
+      border: none;
+      padding: 0;
+      font-family: inherit;
+      text-transform: none;
+      font-feature-settings: normal;
+      font-variant: normal;
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      opacity: 0.75;
+      transition: opacity 0.2s ease, color 0.2s ease;
+    }
+
+    .footer-link-btn:hover {
+      opacity: 1;
+      color: var(--primary);
+    }
   </style>
 </head>
 <body>
@@ -356,8 +341,8 @@
     <h1>HEXAMERTLE</h1>
     <div class="controls">
       <div class="diff-toggle">
-        <button id="btnEasy" class="diff-btn active" onclick="setDifficulty('easy')">w/o elisione</button>
-        <button id="btnHard" class="diff-btn" onclick="setDifficulty('hard')">w/ elisione</button>
+        <button id="btnEasy" class="diff-btn active" onclick="setDifficulty('easy')">Easy</button>
+        <button id="btnHard" class="diff-btn" onclick="setDifficulty('hard')">Hard</button>
       </div>
       <button class="diff-btn" style="border: 1px solid var(--card-border);" onclick="pickNewRandomVerse()">Random</button>
       <span id="verseIdTag" class="meta-tag">#Daily</span>
@@ -380,113 +365,91 @@
     </div>
   </main>
 
+  <footer class="app-footer">
+    <button class="footer-link-btn" onclick="openSourcesModal()">What is this?</button>
+  </footer>
+
   <div id="resultModal" class="modal-overlay">
-  <div class="modal-content">
-    <h2 id="modalStatus" style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 8px;">VICTORIA!</h2>
-    
-    <div id="modalVerse" style="font-size: 1.15rem; font-style: italic; margin: 12px 0 6px 0; color: var(--text);"></div>
-    
-    <div id="modalCitation" style="font-size: 0.85rem; color: var(--primary); font-weight: 600; letter-spacing: 0.5px; margin-bottom: 12px;"></div>
-    
-<blockquote id="modalTranslation" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); background: var(--surface); padding: 12px 16px; margin: 14px auto; border-radius: 8px; font-style: italic; text-align: center; border: 1px solid var(--border); max-width: 90%;"></blockquote>    
-    <div id="modalMeta" style="font-size: 0.85rem; color: var(--text-muted); margin: 14px 0;"></div>
+    <div class="modal-content">
+      <h2 id="modalStatus" style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 8px;">VICTORIA!</h2>
+      <div id="modalVerse" style="font-size: 1.15rem; font-style: italic; margin: 12px 0 6px 0; color: var(--text);"></div>
+      <div id="modalCitation" style="font-size: 0.85rem; color: var(--primary); font-weight: 600; letter-spacing: 0.5px; margin-bottom: 12px;"></div>
+      <blockquote id="modalTranslation" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); background: var(--surface); padding: 12px 16px; margin: 14px auto; border-radius: 8px; font-style: italic; text-align: center; border: 1px solid var(--card-border); max-width: 90%;"></blockquote>    
+      <div id="modalMeta" style="font-size: 0.85rem; color: var(--text-muted); margin: 14px 0;"></div>
 
-    <div style="display:flex; gap:8px; justify-content:center; align-items:center; margin-top:16px;">
-      <button class="btn share-btn" onclick="copyShareText()">Copy Result</button>
-      <button class="btn btn-sub" onclick="closeModal()">Close</button>
+      <div style="display:flex; gap:8px; justify-content:center; align-items:center; margin-top:16px;">
+        <button class="btn share-btn" onclick="copyShareText()">Copy Result</button>
+        <button class="btn btn-sub" onclick="closeModal()">Close</button>
+      </div>
     </div>
   </div>
-</div>
 
-<div id="sourcesModal" class="modal-overlay" onclick="closeSourcesModal(event)">
-  <div class="modal-content" style="max-width: 500px; text-align: left;" onclick="event.stopPropagation()">
-    <h2 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
-      ABOUT SOURCES
-    </h2>
-    <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; text-align: center;">
-      Hexametrdle is a daily metrical puzzle. Reconstruct Latin dactylic hexameters from medieval and late antique collections.
-    </p>
+  <div id="sourcesModal" class="modal-overlay" onclick="closeSourcesModal(event)">
+    <div class="modal-content" style="max-width: 500px; text-align: left;" onclick="event.stopPropagation()">
+      <h2 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
+        What is this?
+      </h2>
+      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; text-align: center;">
+        HEXAMERTLE is a puzzle to reconstruct Latin dactylic hexameter verse from actual collections.
+        
+      </p>
 
-    <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem; line-height: 1.5;">
-      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px;">
-        <div style="font-weight: bold; color: var(--text);">Disticha Catonis</div>
-        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
-          • <strong>Latin:</strong> <em>Disticha Catonis</em> (from <a href="https://www.thelatinlibrary.com/catoni.html" target="_blank">The Latin Library</a>)<br>
-          • <strong>English:</strong> <em>mainly translated by HalCeKey</em><br>
-          • <strong>With a help of</strong> Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em> (1922).
+      <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem; line-height: 1.5;">
+        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 10px 14px;">
+          <div style="font-weight: bold; color: var(--text);">Disticha Catonis</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+            • <strong>Latin:</strong> <em>Disticha Catonis</em> (from <a href="https://www.thelatinlibrary.com/catoni.html" target="_blank" style="color: var(--primary);">The Latin Library</a>)<br>
+            • <strong>English:</strong> mainly translated by HalCeKey<br>
+            • <strong>With the help of</strong> Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em> (1922).
+          </div>
+        </div>
+
+        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 10px 14px;">
+          <div style="font-weight: bold; color: var(--text);">Regimen Sanitatis Salernitanum</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+            • <strong>Latin:</strong> <em>Regimen Sanitatis Salerni</em> (from <a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank" style="color: var(--primary);">Accademia Jaufré Rudel</a>)<br>
+            • <strong>English:</strong> mainly translated by HalCeKey<br>
+            • <strong>With the help of</strong> John Ordronaux, <em>Code of Health of the School of Salernum</em> (1870).
+          </div>
         </div>
       </div>
 
-      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px;">
-        <div style="font-weight: bold; color: var(--text);">Regimen Sanitatis Salernitanum</div>
-        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
-          • <strong>Latin:</strong> <em><a href="">Flos Medicinae Scholae Salerni</em>(from <a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank">Accademia Jaufré Rudel</a>)<br>
-          • <strong>English:</strong> <em>mainly translated by HalCeKey</em><br>
-          • <strong>With a help of </strong> John Ordronaux, <em>Code of Health of the School of Salernum</em> (1870).
-        </div>
+      <div style="margin-top: 20px; text-align: center;">
+        <button class="btn btn-sub" onclick="closeSourcesModal()">Close</button>
       </div>
     </div>
-
-    <div style="margin-top: 20px; text-align: center;">
-      <button class="btn btn-sub" onclick="closeSourcesModal()">Close</button>
-    </div>
   </div>
-</div>
 
   <script>
-    
     const PRESETS = {
       easy: [
         { "id": 1,
-    "citation": "Disticha Catonis",
-    "text": "Plus vigila semper nec somno deditus esto;",
-    "words": [
-      "Plus",
-      "vigila",
-      "semper",
-      "nec",
-      "somno",
-      "deditus",
-      "esto;"
-    ],
-    "word_count": 7,
-    "elision_count": 0,
-    "translation": "Watch more ever, and be not given to sleep.",
-    "difficulty": "easy" },
+          "citation": "Disticha Catonis",
+          "text": "Plus vigila semper nec somno deditus esto;",
+          "words": ["Plus", "vigila", "semper", "nec", "somno", "deditus", "esto;"],
+          "word_count": 7,
+          "elision_count": 0,
+          "translation": "Watch more ever, and be not given to sleep.",
+          "difficulty": "easy" },
         { "id": 160,
-    "citation": "Regimen Sanitatis Salernitanum",
-    "text": "Languenti stomacho caseus addit opem;",
-    "words": [
-      "languenti",
-      "stomacho",
-      "caseus",
-      "addit",
-      "opem"
-    ],
-    "word_count": 5,
-    "syllable_estimate": 13,
-    "elision_count": 0,
-    "translation": "Cheese brings help to a weak stomach.",
-    "difficulty": "easy" }
+          "citation": "Regimen Sanitatis Salernitanum",
+          "text": "Languenti stomacho caseus addit opem;",
+          "words": ["languenti", "stomacho", "caseus", "addit", "opem"],
+          "word_count": 5,
+          "syllable_estimate": 13,
+          "elision_count": 0,
+          "translation": "Cheese brings help to a weak stomach.",
+          "difficulty": "easy" }
       ],
       hard: [
         { "id": 17,
-    "citation": "Disticha Catonis",
-    "text": "In morte alterius spem tu tibi ponere noli.",
-    "words": [
-      "In",
-      "morte",
-      "alterius",
-      "spem",
-      "tu",
-      "tibi",
-      "ponere",
-      "noli."
-    ],
-    "word_count": 8,
-    "elision_count": 1,
-    "translation": "Do not place your hope in the death of another.",
-    "difficulty": "hard" }
+          "citation": "Disticha Catonis",
+          "text": "In morte alterius spem tu tibi ponere noli.",
+          "words": ["In", "morte", "alterius", "spem", "tu", "tibi", "ponere", "noli."],
+          "word_count": 8,
+          "elision_count": 1,
+          "translation": "Do not place your hope in the death of another.",
+          "difficulty": "hard" }
       ]
     };
 
@@ -498,6 +461,7 @@
     let attempts = [];
     const MAX_ATTEMPTS = 6;
     let isGameOver = false;
+    let shuffledIndices = [];
 
     function clean(w) {
       return w.replace(/[^a-zA-Zāēīōūȳăĕĭŏŭ]/g, '').toLowerCase();
@@ -550,23 +514,21 @@
     function setupPuzzle(verseData, label) {
       currentVerse = verseData;
       targetWords = verseData.words
-    .map(w => w.replace(/[^a-zA-Zāēīōūȳăĕĭŏŭ]/g, '').toLowerCase())
-    .filter(w => w.length > 0);
+        .map(w => clean(w))
+        .filter(w => w.length > 0);
 
-  attempts = [];
-  currentAssembly = [];
-  isGameOver = false;
+      attempts = [];
+      currentAssembly = [];
+      isGameOver = false;
 
-  document.getElementById('verseIdTag').textContent = label;
-  document.getElementById('boardCard').style.display = 'block';
+      document.getElementById('verseIdTag').textContent = label;
+      document.getElementById('boardCard').style.display = 'block';
       shuffledIndices = targetWords.map((_, i) => i).sort(() => Math.random() - 0.5);
 
       renderHistory();
       renderAssembly();
       renderBank();
     }
-
-    let shuffledIndices = [];
 
     function renderHistory() {
       const container = document.getElementById('historyContainer');
@@ -714,45 +676,44 @@
     }
 
     function endGame(won) {
-  isGameOver = true;
-  document.getElementById('boardCard').style.display = 'none';
+      isGameOver = true;
+      document.getElementById('boardCard').style.display = 'none';
 
-  const modal = document.getElementById('resultModal');
-  const title = document.getElementById('modalStatus');
-  const verseEl = document.getElementById('modalVerse');
-  const citationEl = document.getElementById('modalCitation');
-  const translationEl = document.getElementById('modalTranslation');
-  const metaEl = document.getElementById('modalMeta');
+      const modal = document.getElementById('resultModal');
+      const title = document.getElementById('modalStatus');
+      const verseEl = document.getElementById('modalVerse');
+      const citationEl = document.getElementById('modalCitation');
+      const translationEl = document.getElementById('modalTranslation');
+      const metaEl = document.getElementById('modalMeta');
 
-  title.textContent = won ? 'VICTORIA!' : 'FINIS LUDI';
-  title.style.color = won ? 'var(--green)' : 'var(--primary)';
+      title.textContent = won ? 'VICTORIA!' : 'FINIS LUDI';
+      title.style.color = won ? 'var(--green)' : 'var(--primary)';
 
-  verseEl.textContent = currentVerse.text || '';
+      verseEl.textContent = currentVerse.text || '';
 
-  if (citationEl) {
-    citationEl.textContent = currentVerse.citation ? `— ${currentVerse.citation}` : '';
-  }
+      if (citationEl) {
+        citationEl.textContent = currentVerse.citation ? `— ${currentVerse.citation}` : '';
+      }
 
-  if (translationEl) {
-    if (currentVerse.translation) {
-      translationEl.textContent = `“${currentVerse.translation}”`;
-      translationEl.style.display = 'block';
-    } else {
-      translationEl.style.display = 'none';
+      if (translationEl) {
+        if (currentVerse.translation) {
+          translationEl.textContent = `“${currentVerse.translation}”`;
+          translationEl.style.display = 'block';
+        } else {
+          translationEl.style.display = 'none';
+        }
+      }
+
+      if (metaEl) {
+        metaEl.innerHTML = `
+          Difficulty: <strong>${currentDifficulty.toUpperCase()}</strong> | 
+          Words: ${currentVerse.word_count || targetWords.length} | 
+          Attempts: ${attempts.length}/${MAX_ATTEMPTS}
+        `;
+      }
+
+      modal.classList.add('open');
     }
-  }
-
-  if (metaEl) {
-    metaEl.innerHTML = `
-      Difficulty: <strong>${currentDifficulty.toUpperCase()}</strong> | 
-      Words: ${currentVerse.word_count || targetWords.length} | 
-      Attempts: ${attempts.length}/${MAX_ATTEMPTS}
-    `;
-  }
-
-  modal.classList.add('open');
-}
-
 
     function closeModal() {
       document.getElementById('resultModal').classList.remove('open');
@@ -773,7 +734,24 @@
       alert('Copied to clipboard!');
     }
 
+    function openSourcesModal() {
+      const modal = document.getElementById('sourcesModal');
+      if (modal) {
+        modal.classList.add('open');
+      }
+    }
+
+    function closeSourcesModal(event) {
+      const modal = document.getElementById('sourcesModal');
+      if (modal) {
+        modal.classList.remove('open');
+      }
+    }
+
     window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeSourcesModal();
+      }
       if (isGameOver) return;
       if (e.key === 'Enter') {
         submitAttempt();
@@ -785,28 +763,6 @@
     });
 
     window.onload = initData;
-    function openSourcesModal() {
-  const modal = document.getElementById('sourcesModal');
-  if (modal) {
-    modal.classList.add('open');
-  }
-}
-
-function closeSourcesModal(event) {
-  const modal = document.getElementById('sourcesModal');
-  if (modal) {
-    modal.classList.remove('open');
-  }
-}
-
-window.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    closeSourcesModal();
-  }
-});
   </script>
-<footer class="app-footer">
-  <button class="footer-link-btn" onclick="openSourcesModal()">About this page & Sources</button>
-</footer>
 </body>
 </html>

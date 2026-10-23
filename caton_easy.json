@@ -1916,7 +1916,7 @@
   {
     "id": 157,
     "citation": "Regimen Sanitatis Salernitanum",
-    "text": "Sunt nutritivae multum cames vitulinae.",
+    "text": "Sunt nutritivae multum carnes vitulinae.",
     "words": [
       "sunt",
       "nutritivae",
@@ -1966,23 +1966,6 @@
     "syllable_estimate": 16,
     "elision_count": 0,
     "translation": "Cheese, is cold, constipating, crude, and hard.",
-    "difficulty": "easy"
-  },
-  {
-    "id": 160,
-    "citation": "Regimen Sanitatis Salernitanum",
-    "text": "Languenti stomacho caseus addit opem;",
-    "words": [
-      "languenti",
-      "stomacho",
-      "caseus",
-      "addit",
-      "opem"
-    ],
-    "word_count": 5,
-    "syllable_estimate": 13,
-    "elision_count": 0,
-    "translation": "Cheese brings help to a weak stomach.",
     "difficulty": "easy"
   },
   {
