@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="la">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="HEXAMERTLE">
+  <meta property="og:description" content="Wordle-style Latin hexameter verse puzzle">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="https://halcekey.github.io/favicon.svg">
+  <title>HEXAMERTLE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8F5EE;
+      --surface: #FFFFFF;
+      --card-border: #E5DFC8;
+      --text: #2C2825;
+      --text-muted: #7A7265;
+      --green: #2E6B4F;
+      --green-light: #E7F3EC;
+      --yellow: #C28B23;
+      --yellow-light: #FBF4E4;
+      --gray: #9E988E;
+      --gray-light: #ECE8E0;
+      --primary: #8C2D19;
+      --accent: #B83A20;
+      --radius: 8px;
+      --font-serif: 'EB Garamond', Georgia, serif;
+      --font-display: 'Cinzel', serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-serif);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 16px;
+    }
+
+    header {
+      width: 100%;
+      max-width: 680px;
+      text-align: center;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--card-border);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: var(--primary);
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--text-muted);
+    }
+
+    .controls {
+      display: flex;
+      gap: 12px;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .diff-toggle {
+      display: inline-flex;
+      background: var(--gray-light);
+      border-radius: 20px;
+      padding: 3px;
+      border: 1px solid var(--card-border);
+    }
+
+    .diff-btn {
+      border: none;
+      background: transparent;
+      padding: 4px 14px;
+      border-radius: 16px;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.2s;
+    }
+
+    .diff-btn.active {
+      background: var(--surface);
+      color: var(--primary);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      font-weight: 700;
+    }
+
+    .meta-tag {
+      font-size: 0.8rem;
+      background: var(--card-border);
+      padding: 3px 8px;
+      border-radius: 4px;
+      color: var(--text-muted);
+    }
+
+    main {
+      width: 100%;
+      max-width: 680px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .history-container {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .attempt-row {
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .slot {
+      min-width: 60px;
+      height: 42px;
+      padding: 0 10px;
+      border-radius: var(--radius);
+      border: 1.5px dashed var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      font-weight: 600;
+      background: rgba(255,255,255,0.4);
+      user-select: none;
+      transition: transform 0.15s, background-color 0.2s;
+    }
+
+    .slot.correct {
+      background-color: var(--green);
+      color: #FFF;
+      border: 1.5px solid var(--green);
+    }
+
+    .slot.present {
+      background-color: var(--yellow);
+      color: #FFF;
+      border: 1.5px solid var(--yellow);
+    }
+
+    .slot.active-input {
+      border-style: solid;
+      border-color: var(--primary);
+      background: var(--surface);
+      cursor: pointer;
+    }
+
+    .slot.empty {
+      background: transparent;
+      color: transparent;
+    }
+
+    .board-card {
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+
+    .card-label {
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .current-line-slots {
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+      flex-wrap: wrap;
+      min-height: 48px;
+      padding: 4px;
+    }
+
+    .word-bank {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      min-height: 44px;
+    }
+
+    .word-chip {
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      border-bottom: 2px solid var(--card-border);
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 1.15rem;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s;
+    }
+
+    .word-chip:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .word-chip:active {
+      transform: translateY(1px);
+    }
+
+    .word-chip.used {
+      opacity: 0.3;
+      pointer-events: none;
+      border-style: dashed;
+    }
+
+    .action-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    button.btn {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: all 0.2s;
+    }
+
+    .btn-submit {
+      background: var(--primary);
+      color: #FFF;
+    }
+
+    .btn-submit:disabled {
+      background: var(--gray);
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .btn-sub {
+      background: var(--gray-light);
+      color: var(--text);
+    }
+
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(3px);
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 100;
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal-content {
+      background: var(--surface);
+      border-radius: 12px;
+      width: 100%;
+      max-width: 520px;
+      padding: 24px;
+      border: 1px solid var(--card-border);
+      text-align: center;
+      position: relative;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .modal-title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .final-verse {
+      font-size: 1.35rem;
+      font-style: italic;
+      color: var(--text);
+      margin: 16px 0;
+      padding: 12px;
+      background: var(--bg);
+      border-radius: 6px;
+    }
+
+    .verse-meta {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    .share-btn {
+      background: var(--green);
+      color: white;
+    }
+.app-footer {
+  margin-top: auto;
+  padding: 24px 16px 16px;
+  text-align: center;
+}
+
+.footer-link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  opacity: 0.75;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.footer-link-btn:hover {
+  opacity: 1;
+  color: var(--primary);
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HEXAMERTLE</h1>
+    <div class="controls">
+      <div class="diff-toggle">
+        <button id="btnEasy" class="diff-btn active" onclick="setDifficulty('easy')">EASY (Sine Elisione)</button>
+        <button id="btnHard" class="diff-btn" onclick="setDifficulty('hard')">HARD (Cum Elisione)</button>
+      </div>
+      <button class="diff-btn" style="border: 1px solid var(--card-border);" onclick="pickNewRandomVerse()">Random</button>
+      <span id="verseIdTag" class="meta-tag">#Daily</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="history-container" id="historyContainer"></div>
+
+    <div class="board-card" id="boardCard">
+      <div class="current-line-slots" id="currentSlots"></div>
+
+      <div class="word-bank" id="wordBank"></div>
+
+      <div class="action-row">
+        <button class="btn btn-sub" onclick="clearCurrentSelection()">Clear</button>
+        <button class="btn btn-sub" onclick="shuffleBank()">Shuffle</button>
+        <button class="btn btn-submit" id="submitBtn" onclick="submitAttempt()" disabled>Verifica!</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="resultModal" class="modal-overlay">
+  <div class="modal-content">
+    <h2 id="modalStatus" style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 8px;">VICTORIA!</h2>
+    
+    <div id="modalVerse" style="font-size: 1.15rem; font-style: italic; margin: 12px 0 6px 0; color: var(--text);"></div>
+    
+    <div id="modalCitation" style="font-size: 0.85rem; color: var(--primary); font-weight: 600; letter-spacing: 0.5px; margin-bottom: 12px;"></div>
+    
+<blockquote id="modalTranslation" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); background: var(--surface); padding: 12px 16px; margin: 14px auto; border-radius: 8px; font-style: italic; text-align: center; border: 1px solid var(--border); max-width: 90%;"></blockquote>    
+    <div id="modalMeta" style="font-size: 0.85rem; color: var(--text-muted); margin: 14px 0;"></div>
+
+    <div style="display:flex; gap:8px; justify-content:center; align-items:center; margin-top:16px;">
+      <button class="btn share-btn" onclick="copyShareText()">Copy Result</button>
+      <button class="btn btn-sub" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<div id="sourcesModal" class="modal-overlay" onclick="closeSourcesModal(event)">
+  <div class="modal-content" style="max-width: 500px; text-align: left;" onclick="event.stopPropagation()">
+    <h2 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
+      ABOUT SOURCES
+    </h2>
+    <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; text-align: center;">
+      Hexametrdle is a daily metrical puzzle. Reconstruct Latin dactylic hexameters from medieval and late antique collections.
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem; line-height: 1.5;">
+      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px;">
+        <div style="font-weight: bold; color: var(--text);">Disticha Catonis</div>
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+          • <strong>Latin:</strong> <em>Disticha Catonis</em> (from <a href="https://www.thelatinlibrary.com/catoni.html" target="_blank">The Latin Library</a>)<br>
+          • <strong>English:</strong> <em>mainly translated by HalCeKey</em><br>
+          • <strong>With a help of</strong> Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em> (1922).
+        </div>
+      </div>
+
+      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px;">
+        <div style="font-weight: bold; color: var(--text);">Regimen Sanitatis Salernitanum</div>
+        <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+          • <strong>Latin:</strong> <em>Flos Medicinae Scholae Salerni</em> (The Latin Library)<br>
+          • <strong>English:</strong> <em>mainly translated by HalCeKey</em><br>
+          • <strong>With a help of </strong> John Ordronaux, <em>Code of Health of the School of Salernum</em> (1870).
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 20px; text-align: center;">
+      <button class="btn btn-sub" onclick="closeSourcesModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+  <script>
+    
+    const PRESETS = {
+      easy: [
+        { "id": 1,
+    "citation": "Disticha Catonis",
+    "text": "Plus vigila semper nec somno deditus esto;",
+    "words": [
+      "Plus",
+      "vigila",
+      "semper",
+      "nec",
+      "somno",
+      "deditus",
+      "esto;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Watch more ever, and be not given to sleep.",
+    "difficulty": "easy" },
+        { "id": 160,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Languenti stomacho caseus addit opem;",
+    "words": [
+      "languenti",
+      "stomacho",
+      "caseus",
+      "addit",
+      "opem"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "Cheese brings help to a weak stomach.",
+    "difficulty": "easy" }
+      ],
+      hard: [
+        { "id": 17,
+    "citation": "Disticha Catonis",
+    "text": "In morte alterius spem tu tibi ponere noli.",
+    "words": [
+      "In",
+      "morte",
+      "alterius",
+      "spem",
+      "tu",
+      "tibi",
+      "ponere",
+      "noli."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Do not place your hope in the death of another.",
+    "difficulty": "hard" }
+      ]
+    };
+
+    let datasets = { easy: [], hard: [] };
+    let currentDifficulty = 'easy';
+    let currentVerse = null;
+    let targetWords = [];
+    let currentAssembly = [];
+    let attempts = [];
+    const MAX_ATTEMPTS = 6;
+    let isGameOver = false;
+
+    function clean(w) {
+      return w.replace(/[^a-zA-Zāēīōūȳăĕĭŏŭ]/g, '').toLowerCase();
+    }
+
+    async function initData() {
+      try {
+        const [resEasy, resHard] = await Promise.all([
+          fetch('caton_easy.json'),
+          fetch('caton_hard.json')
+        ]);
+        if (resEasy.ok && resHard.ok) {
+          datasets.easy = await resEasy.json();
+          datasets.hard = await resHard.json();
+        } else {
+          throw new Error("HTTP error loading JSON");
+        }
+      } catch (e) {
+        console.warn("Local JSON fetch failed (CORS/Missing). Using embedded presets.", e);
+        datasets = PRESETS;
+      }
+      loadDailyPuzzle();
+    }
+
+    function setDifficulty(diff) {
+      if (currentDifficulty === diff) return;
+      currentDifficulty = diff;
+      document.getElementById('btnEasy').classList.toggle('active', diff === 'easy');
+      document.getElementById('btnHard').classList.toggle('active', diff === 'hard');
+      loadDailyPuzzle();
+    }
+
+    function loadDailyPuzzle() {
+      const pool = datasets[currentDifficulty];
+      if (!pool || pool.length === 0) return;
+
+      const today = new Date();
+      const dateHash = (today.getFullYear() * 372) + ((today.getMonth() + 1) * 31) + today.getDate();
+      const verseIndex = dateHash % pool.length;
+      setupPuzzle(pool[verseIndex], `Daily #${dateHash % 999}`);
+    }
+
+    function pickNewRandomVerse() {
+      const pool = datasets[currentDifficulty];
+      if (!pool || pool.length === 0) return;
+      const randIndex = Math.floor(Math.random() * pool.length);
+      setupPuzzle(pool[randIndex], `Random #${pool[randIndex].id}`);
+    }
+
+    function setupPuzzle(verseData, label) {
+      currentVerse = verseData;
+      targetWords = verseData.words
+    .map(w => w.replace(/[^a-zA-Zāēīōūȳăĕĭŏŭ]/g, '').toLowerCase())
+    .filter(w => w.length > 0);
+
+  attempts = [];
+  currentAssembly = [];
+  isGameOver = false;
+
+  document.getElementById('verseIdTag').textContent = label;
+  document.getElementById('boardCard').style.display = 'block';
+      shuffledIndices = targetWords.map((_, i) => i).sort(() => Math.random() - 0.5);
+
+      renderHistory();
+      renderAssembly();
+      renderBank();
+    }
+
+    let shuffledIndices = [];
+
+    function renderHistory() {
+      const container = document.getElementById('historyContainer');
+      container.innerHTML = '';
+
+      for (let r = 0; r < MAX_ATTEMPTS; r++) {
+        const rowDiv = document.createElement('div');
+        rowDiv.className = 'attempt-row';
+
+        if (r < attempts.length) {
+          const res = attempts[r];
+          res.forEach(item => {
+            const slot = document.createElement('div');
+            slot.className = `slot ${item.status}`;
+            slot.textContent = item.word;
+            rowDiv.appendChild(slot);
+          });
+        } else {
+          for (let s = 0; s < targetWords.length; s++) {
+            const slot = document.createElement('div');
+            slot.className = 'slot empty';
+            rowDiv.appendChild(slot);
+          }
+        }
+        container.appendChild(rowDiv);
+      }
+    }
+
+    function renderAssembly() {
+      const container = document.getElementById('currentSlots');
+      container.innerHTML = '';
+
+      for (let i = 0; i < targetWords.length; i++) {
+        const slot = document.createElement('div');
+        if (i < currentAssembly.length) {
+          const wordIdx = currentAssembly[i];
+          slot.className = 'slot active-input';
+          slot.textContent = targetWords[wordIdx];
+          slot.onclick = () => removeWord(i);
+        } else {
+          slot.className = 'slot';
+          slot.textContent = '';
+        }
+        container.appendChild(slot);
+      }
+
+      document.getElementById('submitBtn').disabled = (currentAssembly.length !== targetWords.length) || isGameOver;
+    }
+
+    function renderBank() {
+      const container = document.getElementById('wordBank');
+      container.innerHTML = '';
+
+      shuffledIndices.forEach(idx => {
+        const chip = document.createElement('div');
+        chip.className = 'word-chip';
+        chip.textContent = targetWords[idx];
+
+        if (currentAssembly.includes(idx)) {
+          chip.classList.add('used');
+        } else {
+          chip.onclick = () => addWord(idx);
+        }
+        container.appendChild(chip);
+      });
+    }
+
+    function addWord(idx) {
+      if (isGameOver || currentAssembly.length >= targetWords.length) return;
+      currentAssembly.push(idx);
+      renderAssembly();
+      renderBank();
+    }
+
+    function removeWord(assemblyPos) {
+      if (isGameOver) return;
+      currentAssembly.splice(assemblyPos, 1);
+      renderAssembly();
+      renderBank();
+    }
+
+    function clearCurrentSelection() {
+      if (isGameOver) return;
+      currentAssembly = [];
+      renderAssembly();
+      renderBank();
+    }
+
+    function shuffleBank() {
+      if (isGameOver) return;
+      shuffledIndices.sort(() => Math.random() - 0.5);
+      renderBank();
+    }
+
+    function submitAttempt() {
+      if (currentAssembly.length !== targetWords.length || isGameOver) return;
+
+      const guessClean = currentAssembly.map(i => clean(targetWords[i]));
+      const targetClean = targetWords.map(w => clean(w));
+
+      let result = [];
+      let targetUsed = new Array(targetWords.length).fill(false);
+      let isCorrect = true;
+
+      for (let i = 0; i < targetWords.length; i++) {
+        if (guessClean[i] === targetClean[i]) {
+          result[i] = { word: targetWords[currentAssembly[i]], status: 'correct' };
+          targetUsed[i] = true;
+        } else {
+          isCorrect = false;
+        }
+      }
+
+      for (let i = 0; i < targetWords.length; i++) {
+        if (result[i]) continue;
+        const gWord = guessClean[i];
+        let foundIdx = -1;
+
+        for (let j = 0; j < targetClean.length; j++) {
+          if (!targetUsed[j] && targetClean[j] === gWord) {
+            foundIdx = j;
+            break;
+          }
+        }
+
+        if (foundIdx !== -1) {
+          result[i] = { word: targetWords[currentAssembly[i]], status: 'present' };
+          targetUsed[foundIdx] = true;
+        } else {
+          result[i] = { word: targetWords[currentAssembly[i]], status: 'gray' };
+        }
+      }
+
+      attempts.push(result);
+      currentAssembly = [];
+      renderHistory();
+      renderAssembly();
+      renderBank();
+
+      if (isCorrect) {
+        endGame(true);
+      } else if (attempts.length >= MAX_ATTEMPTS) {
+        endGame(false);
+      }
+    }
+
+    function endGame(won) {
+  isGameOver = true;
+  document.getElementById('boardCard').style.display = 'none';
+
+  const modal = document.getElementById('resultModal');
+  const title = document.getElementById('modalStatus');
+  const verseEl = document.getElementById('modalVerse');
+  const citationEl = document.getElementById('modalCitation');
+  const translationEl = document.getElementById('modalTranslation');
+  const metaEl = document.getElementById('modalMeta');
+
+  title.textContent = won ? 'VICTORIA!' : 'FINIS LUDI';
+  title.style.color = won ? 'var(--green)' : 'var(--primary)';
+
+  verseEl.textContent = currentVerse.text || '';
+
+  if (citationEl) {
+    citationEl.textContent = currentVerse.citation ? `— ${currentVerse.citation}` : '';
+  }
+
+  if (translationEl) {
+    if (currentVerse.translation) {
+      translationEl.textContent = `“${currentVerse.translation}”`;
+      translationEl.style.display = 'block';
+    } else {
+      translationEl.style.display = 'none';
+    }
+  }
+
+  if (metaEl) {
+    metaEl.innerHTML = `
+      Difficulty: <strong>${currentDifficulty.toUpperCase()}</strong> | 
+      Words: ${currentVerse.word_count || targetWords.length} | 
+      Attempts: ${attempts.length}/${MAX_ATTEMPTS}
+    `;
+  }
+
+  modal.classList.add('open');
+}
+
+
+    function closeModal() {
+      document.getElementById('resultModal').classList.remove('open');
+      document.getElementById('boardCard').style.display = 'block';
+    }
+
+    function copyShareText() {
+      let text = `Hexamertle ${document.getElementById('verseIdTag').textContent} (${currentDifficulty.toUpperCase()}) ${attempts.length}/${MAX_ATTEMPTS}\n\n`;
+      attempts.forEach(row => {
+        row.forEach(item => {
+          if (item.status === 'correct') text += '🟩';
+          else if (item.status === 'present') text += '🟨';
+          else text += '⬛';
+        });
+        text += '\n';
+      });
+      navigator.clipboard.writeText(text);
+      alert('Copied to clipboard!');
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (isGameOver) return;
+      if (e.key === 'Enter') {
+        submitAttempt();
+      } else if (e.key === 'Backspace') {
+        if (currentAssembly.length > 0) {
+          removeWord(currentAssembly.length - 1);
+        }
+      }
+    });
+
+    window.onload = initData;
+    function openSourcesModal() {
+  const modal = document.getElementById('sourcesModal');
+  if (modal) {
+    modal.classList.add('open');
+  }
+}
+
+function closeSourcesModal(event) {
+  const modal = document.getElementById('sourcesModal');
+  if (modal) {
+    modal.classList.remove('open');
+  }
+}
+
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeSourcesModal();
+  }
+});
+  </script>
+<footer class="app-footer">
+  <button class="footer-link-btn" onclick="openSourcesModal()">About this page & Sources</button>
+</footer>
+</body>
+</html>
