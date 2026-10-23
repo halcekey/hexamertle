@@ -1,0 +1,838 @@
+[
+  {
+    "id": 2,
+    "citation": "Disticha Catonis",
+    "text": "Proximus ille deo est, qui scit ratione tacere.",
+    "words": [
+      "Proximus",
+      "ille",
+      "deo",
+      "est,",
+      "qui",
+      "scit",
+      "ratione",
+      "tacere."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "One who knows how to speak wisely is near to the gods.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 6,
+    "citation": "Disticha Catonis",
+    "text": "Nil temere uxori de servis crede querenti;",
+    "words": [
+      "Nil",
+      "temere",
+      "uxori",
+      "de",
+      "servis",
+      "crede",
+      "querenti;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Do not trust your wife when she complains about the servants without cause;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 7,
+    "citation": "Disticha Catonis",
+    "text": "Saepe enim mulier, quem coniux diligit, odit.",
+    "words": [
+      "Saepe",
+      "enim",
+      "mulier,",
+      "quem",
+      "coniux",
+      "diligit,",
+      "odit."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "For often a wife hates the woman her husband loves.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "citation": "Disticha Catonis",
+    "text": "Rara fides ideo est, quia multi multa loquuntur.",
+    "words": [
+      "Rara",
+      "fides",
+      "ideo",
+      "est,",
+      "quia",
+      "multi",
+      "multa",
+      "loquuntur."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Trust is rare because many people just say much.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 12,
+    "citation": "Disticha Catonis",
+    "text": "Atque aliis cum tu bene feceris ipse, sileto.",
+    "words": [
+      "Atque",
+      "aliis",
+      "cum",
+      "tu",
+      "bene",
+      "feceris",
+      "ipse,",
+      "sileto."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "And when you have done good for others, keep silent about it yourself.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 17,
+    "citation": "Disticha Catonis",
+    "text": "In morte alterius spem tu tibi ponere noli.",
+    "words": [
+      "In",
+      "morte",
+      "alterius",
+      "spem",
+      "tu",
+      "tibi",
+      "ponere",
+      "noli."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Do not place your hope in the death of another.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 20,
+    "citation": "Disticha Catonis",
+    "text": "Incusare deum noli, sed te ipse coerce.",
+    "words": [
+      "Incusare",
+      "deum",
+      "noli,",
+      "sed",
+      "te",
+      "ipse",
+      "coerce."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Do not blame the gods, but restrain yourself.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 23,
+    "citation": "Disticha Catonis",
+    "text": "Noli homines blando nimium sermone probare;",
+    "words": [
+      "Noli",
+      "homines",
+      "blando",
+      "nimium",
+      "sermone",
+      "probare;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Do not try to test people with flattery or excessive speech;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "citation": "Disticha Catonis",
+    "text": "Turpe est doctori, cum culpa redarguit ipsum.",
+    "words": [
+      "Turpe",
+      "est",
+      "doctori,",
+      "cum",
+      "culpa",
+      "redarguit",
+      "ipsum."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "It is shameful for a teacher when he himself is in guilt.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 29,
+    "citation": "Disticha Catonis",
+    "text": "Cognita iudicio constant, incognita casu.",
+    "words": [
+      "Cognita",
+      "iudicio",
+      "constant,",
+      "incognita",
+      "casu."
+    ],
+    "word_count": 5,
+    "elision_count": 1,
+    "translation": "Those who are known by judgment are constant, those who are unknown is by chance.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "citation": "Disticha Catonis",
+    "text": "Ira odium generat, concordia nutrit amorem.",
+    "words": [
+      "Ira",
+      "odium",
+      "generat,",
+      "concordia",
+      "nutrit",
+      "amorem."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+  "translation": "Anger generates hatred, harmony nourishes love.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 36,
+    "citation": "Disticha Catonis",
+    "text": "Maxima enim morum semper patientia virtus.",
+    "words": [
+      "Maxima",
+      "enim",
+      "morum",
+      "semper",
+      "patientia",
+      "virtus."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "The greatest virtue of character is always patience.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 38,
+    "citation": "Disticha Catonis",
+    "text": "Utilius regno est meritis adquirere amicos.",
+    "words": [
+      "Utilius",
+      "regno",
+      "est",
+      "meritis",
+      "adquirere",
+      "amicos."
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "It is more useful for a kingdom to acquire friends through merit.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 39,
+    "citation": "Disticha Catonis",
+    "text": "Mitte archana dei caelumque inquirere quid sit;",
+    "words": [
+      "Mitte",
+      "archana",
+      "dei",
+      "caelumque",
+      "inquirere",
+      "quid",
+      "sit;"
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "Stop inquiring into the secrets of God andinquire what the heaven is",
+    "difficulty": "hard"
+  },
+  {
+    "id": 40,
+    "citation": "Disticha Catonis",
+    "text": "Iratus de re incerta contendere noli;",
+    "words": [
+      "Iratus",
+      "de",
+      "re",
+      "incerta",
+      "contendere",
+      "noli;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Do not try to argue about uncertains in anger;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 41,
+    "citation": "Disticha Catonis",
+    "text": "Impedit ira animum, ne possit cernere verum.",
+    "words": [
+      "Impedit",
+      "ira",
+      "animum,",
+      "ne",
+      "possit",
+      "cernere",
+      "verum."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Anger hinders the mind, so that it cannot discern the truth.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 48,
+    "citation": "Disticha Catonis",
+    "text": "Victorem a victo superari saepe videmus.",
+    "words": [
+      "Victorem",
+      "a",
+      "victo",
+      "superari",
+      "saepe",
+      "videmus."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "We often see the victor overcome by the vanquished.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 53,
+    "citation": "Disticha Catonis",
+    "text": "Esto animo forti, cum sis damnatus inique;",
+    "words": [
+      "Esto",
+      "animo",
+      "forti,",
+      "cum",
+      "sis",
+      "damnatus",
+      "inique;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Be of strong mind, when you are unjustly condemned;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 54,
+    "citation": "Disticha Catonis",
+    "text": "Nemo diu gaudet, qui iudice vincit iniquo.",
+    "words": [
+      "Nemo",
+      "diu",
+      "gaudet,",
+      "qui",
+      "iudice",
+      "vincit",
+      "iniquo."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "No one rejoices for long, who wins against an unjust judge.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "citation": "Disticha Catonis",
+    "text": "Post inimicitias iram meminisse malorum est.",
+    "words": [
+      "Post",
+      "inimicitias",
+      "iram",
+      "meminisse",
+      "malorum",
+      "est."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "To remember anger after feuds is the mark of evil men.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "citation": "Disticha Catonis",
+    "text": "Labitur exiguo, quod partum est tempore longo.",
+    "words": [
+      "Labitur",
+      "exiguo,",
+      "quod",
+      "partum",
+      "est",
+      "tempore",
+      "longo."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "What is produced over a long time collapses suddenly.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "citation": "Disticha Catonis",
+    "text": "Stultitiam simulare loco prudentia summa est.",
+    "words": [
+      "Stultitiam",
+      "simulare",
+      "loco",
+      "prudentia",
+      "summa",
+      "est."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "To feign stupidity at the just moment is the height of wisdom.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 61,
+    "citation": "Disticha Catonis",
+    "text": "Exigua est tribuenda fides, quia multa loquuntur.",
+    "words": [
+      "Exigua",
+      "est",
+      "tribuenda",
+      "fides,",
+      "quia",
+      "multa",
+      "loquuntur."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation" : "Do not trust those who talk too much.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "citation": "Disticha Catonis",
+    "text": "Consilium archanum tacito committe sodali;",
+    "words": [
+      "Consilium",
+      "archanum",
+      "tacito",
+      "committe",
+      "sodali;"
+    ],
+    "word_count": 5,
+    "elision_count": 1,
+    "translation": "Confide your secret counsel to a trusted friend;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "citation": "Disticha Catonis",
+    "text": "Spem retine; spes una hominem nec morte relinquit.",
+    "words": [
+      "Spem",
+      "retine;",
+      "spes",
+      "una",
+      "hominem",
+      "nec",
+      "morte",
+      "relinquit."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Retain your hope; hope is the one thing that does not abandon a man even in death.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "citation": "Disticha Catonis",
+    "text": "Illum imitare deum, partem qui spectat utramque.",
+    "words": [
+      "Illum",
+      "imitare",
+      "deum,",
+      "partem",
+      "qui",
+      "spectat",
+      "utramque."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Imitate that god, who looks at both sides.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "citation": "Disticha Catonis",
+    "text": "Sit tibi praecipue, quod primum est, cura salutis;",
+    "words": [
+      "Sit",
+      "tibi",
+      "praecipue,",
+      "quod",
+      "primum",
+      "est,",
+      "cura",
+      "salutis;"
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Let your chief concern be your health",
+    "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "citation": "Disticha Catonis",
+    "text": "Simplicitas veri fama est, fraus ficta loquendi.",
+    "words": [
+      "Simplicitas",
+      "veri",
+      "fama",
+      "est,",
+      "fraus",
+      "ficta",
+      "loquendi."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Simplicity is the fame of truth, fraud is the lie of speech.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "citation": "Disticha Catonis",
+    "text": "Segnitiem fugito, quae vitae ignavia fertur;",
+    "words": [
+      "Segnitiem",
+      "fugito,",
+      "quae",
+      "vitae",
+      "ignavia",
+      "fertur;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Avoid laziness, the sloth of life;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 90,
+    "citation": "Disticha Catonis",
+    "text": "Ipsae etiam leges cupiunt, ut iure rogentur.",
+    "words": [
+      "Ipsae",
+      "etiam",
+      "leges",
+      "cupiunt,",
+      "ut",
+      "iure",
+      "rogentur."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "The laws themselves wish to be appealed to justly.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 91,
+    "citation": "Disticha Catonis",
+    "text": "Cumque reus tibi sis, ipsum te iudice damna.",
+    "words": [
+      "Cumque",
+      "reus",
+      "tibi",
+      "sis,",
+      "ipsum",
+      "te",
+      "iudice",
+      "damna."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "When you are the accused, let your own judge be your enemy.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 103,
+    "citation": "Disticha Catonis",
+    "text": "Indulgere gulae noli, quae ventris amica est.",
+    "words": [
+      "Indulgere",
+      "gulae",
+      "noli,",
+      "quae",
+      "ventris",
+      "amica",
+      "est."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Do not indulge in gluttony, a friend of the stomach.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 104,
+    "citation": "Disticha Catonis",
+    "text": "Unum praecipue tibi plus hominem esse timendum.",
+    "words": [
+      "Unum",
+      "praecipue",
+      "tibi",
+      "plus",
+      "hominem",
+      "esse",
+      "timendum."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "One thing above all else you should fear is a man.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 106,
+    "citation": "Disticha Catonis",
+    "text": "Auxilium a notis petito, si forte labores;",
+    "words": [
+      "Auxilium",
+      "a",
+      "notis",
+      "petito,",
+      "si",
+      "forte",
+      "labores;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Seek help from your friends whenyou are in trouble;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 107,
+    "citation": "Disticha Catonis",
+    "text": "Stultitia est morte alterius sperare salutem.",
+    "words": [
+      "Stultitia",
+      "est",
+      "morte",
+      "alterius",
+      "sperare",
+      "salutem."
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "It is foolish to hope for salvation through the death of another.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 108,
+    "citation": "Disticha Catonis",
+    "text": "Non tibi fortuna est hominis sed vita petenda.",
+    "words": [
+      "Non",
+      "tibi",
+      "fortuna",
+      "est",
+      "hominis",
+      "sed",
+      "vita",
+      "petenda."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Fortune is not the essence of a man, but the life is.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 112,
+    "citation": "Disticha Catonis",
+    "text": "Ars remanet vitamque hominis non deserit unquam.",
+    "words": [
+      "Ars",
+      "remanet",
+      "vitamque",
+      "hominis",
+      "non",
+      "deserit",
+      "unquam."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Skill remains with a man's life and never abandons him.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 114,
+    "citation": "Disticha Catonis",
+    "text": "Sermo hominum mores celat et indicat idem.",
+    "words": [
+      "Sermo",
+      "hominum",
+      "mores",
+      "celat",
+      "et",
+      "indicat",
+      "idem."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "The speech of men conceals and reveals their character.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 117,
+    "citation": "Disticha Catonis",
+    "text": "Propaganda etenim est rerum doctrina bonarum.",
+    "words": [
+      "Propaganda",
+      "etenim",
+      "est",
+      "rerum",
+      "doctrina",
+      "bonarum."
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "Propaganda, indeed, is the teaching of good things.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 118,
+    "citation": "Disticha Catonis",
+    "text": "Morbi causa mali nimia est quaecumque voluptas.",
+    "words": [
+      "Morbi",
+      "causa",
+      "mali",
+      "nimia",
+      "est",
+      "quaecumque",
+      "voluptas."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Any pleasure, if it is excessive, is a cause of disease.", 
+    "difficulty": "hard"
+  },
+  {
+    "id": 124,
+    "citation": "Disticha Catonis",
+    "text": "Demissos animo et tacitos vitare memento;",
+    "words": [
+      "Demissos",
+      "animo",
+      "et",
+      "tacitos",
+      "vitare",
+      "memento;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Remember to avoid those who are dejected and silent;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 126,
+    "citation": "Disticha Catonis",
+    "text": "Tutius est multo quam velum tendere in altum.",
+    "words": [
+      "Tutius",
+      "est",
+      "multo",
+      "quam",
+      "velum",
+      "tendere",
+      "in",
+      "altum."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "It is much safer than to stretch a sail into the high seas.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 127,
+    "citation": "Disticha Catonis",
+    "text": "Contra hominem iustum prave contendere noli;",
+    "words": [
+      "Contra",
+      "hominem",
+      "iustum",
+      "prave",
+      "contendere",
+      "noli;"
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "Do not try to argue wrongly against a just man;",
+    "difficulty": "hard"
+  },
+  {
+    "id": 132,
+    "citation": "Disticha Catonis",
+    "text": "Quocumque ingrederis sequitur mors corporis umbra.",
+    "words": [
+      "Quocumque",
+      "ingrederis",
+      "sequitur",
+      "mors",
+      "corporis",
+      "umbra."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Wherever you enter, death follows with the shadow of the body.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 136,
+    "citation": "Disticha Catonis",
+    "text": "Laedere qui potuit, prodesse aliquando valebit.",
+    "words": [
+      "Laedere",
+      "qui",
+      "potuit,",
+      "prodesse",
+      "aliquando",
+      "valebit."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "He who could harm will be able to help at some point.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 140,
+    "citation": "Disticha Catonis",
+    "text": "Ne rursus quaeras quae iam neglexeris ante.",
+    "words": [
+      "Ne",
+      "rursus",
+      "quaeras",
+      "quae",
+      "iam",
+      "neglexeris",
+      "ante."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Do not seek again what you have already neglected before.",
+    "difficulty": "hard"
+  },
+  {
+    "id": 141,
+    "citation": "Disticha Catonis",
+    "text": "Felices obeunt quorum sine crimine vita est.",
+    "words": [
+      "Felices",
+      "obeunt",
+      "quorum",
+      "sine",
+      "crimine",
+      "vita",
+      "est."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Happy are those whose life is without crime.",
+    "difficulty": "hard"
+  }
+]

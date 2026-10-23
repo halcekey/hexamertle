@@ -1,0 +1,2506 @@
+[
+  {
+    "id": 1,
+    "citation": "Disticha Catonis",
+    "text": "Plus vigila semper nec somno deditus esto;",
+    "words": [
+      "Plus",
+      "vigila",
+      "semper",
+      "nec",
+      "somno",
+      "deditus",
+      "esto;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Be oft awake: from too much sleep abstain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "citation": "Disticha Catonis",
+    "text": "Conveniet nulli, qui secum dissidet ipse.",
+    "words": [
+      "Conveniet",
+      "nulli,",
+      "qui",
+      "secum",
+      "dissidet",
+      "ipse."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Who's out with self in peace with none will be.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "citation": "Disticha Catonis",
+    "text": "Utilitas opibus praeponi tempore debet.",
+    "words": [
+      "Utilitas",
+      "opibus",
+      "praeponi",
+      "tempore",
+      "debet."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Before mere wealth should safety first be sought.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "citation": "Disticha Catonis",
+    "text": "Temporibus mores sapiens sine crimine mutat.",
+    "words": [
+      "Temporibus",
+      "mores",
+      "sapiens",
+      "sine",
+      "crimine",
+      "mutat."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "The wise may change his practice without crime.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "citation": "Disticha Catonis",
+    "text": "Sermo datur cunctis, animi sapientia paucis.",
+    "words": [
+      "Sermo",
+      "datur",
+      "cunctis,",
+      "animi",
+      "sapientia",
+      "paucis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Speech is given to all, but wisdom of the mind to few.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "citation": "Disticha Catonis",
+    "text": "Dilige sic alios, ut sis tibi carus amicus;",
+    "words": [
+      "Dilige",
+      "sic",
+      "alios,",
+      "ut",
+      "sis",
+      "tibi",
+      "carus",
+      "amicus;"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Love others as you would be loved by them;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "citation": "Disticha Catonis",
+    "text": "Rem tibi promissam certam promittere noli;",
+    "words": [
+      "Rem",
+      "tibi",
+      "promissam",
+      "certam",
+      "promittere",
+      "noli;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not promise what you cannot keep.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "citation": "Disticha Catonis",
+    "text": "Fac tibi succurrant, iuvenis quae feceris ipse.",
+    "words": [
+      "Fac",
+      "tibi",
+      "succurrant,",
+      "iuvenis",
+      "quae",
+      "feceris",
+      "ipse."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Let those who have done good for you come to your aid, young man.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "citation": "Disticha Catonis",
+    "text": "Ne cures, si quis tacito sermone loquatur;",
+    "words": [
+      "Ne",
+      "cures,",
+      "si",
+      "quis",
+      "tacito",
+      "sermone",
+      "loquatur;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not worry if someone speaks to you in a whisper;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "citation": "Disticha Catonis",
+    "text": "Conscius ipse sibi de se putat omnia dici.",
+    "words": [
+      "Conscius",
+      "ipse",
+      "sibi",
+      "de",
+      "se",
+      "putat",
+      "omnia",
+      "dici."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "He, who is conscious of himself, thinks that all things are said about himself",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "citation": "Disticha Catonis",
+    "text": "Non eodem cursu respondent ultima primis.",
+    "words": [
+      "Non",
+      "eodem",
+      "cursu",
+      "respondent",
+      "ultima",
+      "primis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "End and beginning often are unlike.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "citation": "Disticha Catonis",
+    "text": "Accipito placide, plene laudare memento.",
+    "words": [
+      "Accipito",
+      "placide,",
+      "plene",
+      "laudare",
+      "memento."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Receive calmly, remember to praise fully.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "citation": "Disticha Catonis",
+    "text": "Paupertatis onus patienter ferre memento.",
+    "words": [
+      "Paupertatis",
+      "onus",
+      "patienter",
+      "ferre",
+      "memento."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Remember to bear the burden of poverty patiently.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "citation": "Disticha Catonis",
+    "text": "Utque, quod est, serves, semper tibi deesse putato.",
+    "words": [
+      "Utque,",
+      "quod",
+      "est,",
+      "serves,",
+      "semper",
+      "tibi",
+      "deesse",
+      "putato."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Deem yourself poor and you miss being so.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "citation": "Disticha Catonis",
+    "text": "Ne sis ventosus, dum vis bonus esse videri.",
+    "words": [
+      "Ne",
+      "sis",
+      "ventosus,",
+      "dum",
+      "vis",
+      "bonus",
+      "esse",
+      "videri."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Do not be vain, while you wish to appear good.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "citation": "Disticha Catonis",
+    "text": "Fistula dulce canit, volucrem dum decipit auceps.",
+    "words": [
+      "Fistula",
+      "dulce",
+      "canit,",
+      "volucrem",
+      "dum",
+      "decipit",
+      "auceps."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Sweet sounds the fowler's pipe is to lure the prey",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "citation": "Disticha Catonis",
+    "text": "Instrue, quo possint inopem defendere vitam.",
+    "words": [
+      "Instrue,",
+      "quo",
+      "possint",
+      "inopem",
+      "defendere",
+      "vitam."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Teach how to defend the life of the poor.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "citation": "Disticha Catonis",
+    "text": "Sic tibi nec cupidus nec avarus nosceris ulli.",
+    "words": [
+      "Sic",
+      "tibi",
+      "nec",
+      "cupidus",
+      "nec",
+      "avarus",
+      "nosceris",
+      "ulli."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Thus you will be known to no one as greedy or covetous.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "citation": "Disticha Catonis",
+    "text": "Ignotum tibi tu noli praeponere notis;",
+    "words": [
+      "Ignotum",
+      "tibi",
+      "tu",
+      "noli",
+      "praeponere",
+      "notis;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not prefer the unknown to the known;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "citation": "Disticha Catonis",
+    "text": "Pro lucro tibi pone diem quicumque laboras.",
+    "words": [
+      "Pro",
+      "lucro",
+      "tibi",
+      "pone",
+      "diem",
+      "quicumque",
+      "laboras."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "For profit, set aside a day for whatever you work.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 31,
+    "citation": "Disticha Catonis",
+    "text": "Vincere cum possis, interdum cede sodali;",
+    "words": [
+      "Vincere",
+      "cum",
+      "possis,",
+      "interdum",
+      "cede",
+      "sodali;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "When you can conquer, sometimes yield to your friend.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "citation": "Disticha Catonis",
+    "text": "Obsequio quoniam dulces retinentur amici.",
+    "words": [
+      "Obsequio",
+      "quoniam",
+      "dulces",
+      "retinentur",
+      "amici."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "For by yielding sweet friendships are maintained.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "citation": "Disticha Catonis",
+    "text": "His etenim rebus coniungit gratia caros.",
+    "words": [
+      "His",
+      "etenim",
+      "rebus",
+      "coniungit",
+      "gratia",
+      "caros."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "For by these things, grace binds dear friends.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "citation": "Disticha Catonis",
+    "text": "Ipse tibi moderare, tuis ut parcere possis.",
+    "words": [
+      "Ipse",
+      "tibi",
+      "moderare,",
+      "tuis",
+      "ut",
+      "parcere",
+      "possis."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Governing yourself, so that you may spare your own;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 37,
+    "citation": "Disticha Catonis",
+    "text": "Conserva potius, quae sunt iam parta, labore.",
+    "words": [
+      "Conserva",
+      "potius,",
+      "quae",
+      "sunt",
+      "iam",
+      "parta,",
+      "labore."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Preserve what has already been gained by labor.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "citation": "Disticha Catonis",
+    "text": "Fac sumptum propere, cum res desiderat ipsa.",
+    "words": [
+      "Fac",
+      "sumptum",
+      "propere,",
+      "cum",
+      "res",
+      "desiderat",
+      "ipsa."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": " Be quick at opportunity's demand.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 43,
+    "citation": "Disticha Catonis",
+    "text": "Tuta mage puppis est, modico quae flumine fertur.",
+    "words": [
+      "Tuta",
+      "mage",
+      "puppis",
+      "est,",
+      "modico",
+      "quae",
+      "flumine",
+      "fertur."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "A boat is safest when carried by a gentle stream.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 44,
+    "citation": "Disticha Catonis",
+    "text": "Ne plures culpent id, quod tibi displicet uni.",
+    "words": [
+      "Ne",
+      "plures",
+      "culpent",
+      "id,",
+      "quod",
+      "tibi",
+      "displicet",
+      "uni."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Let not many blame what displeases you alone.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "citation": "Disticha Catonis",
+    "text": "Nolo putes pravos homines peccata lucrari.",
+    "words": [
+      "Nolo",
+      "putes",
+      "pravos",
+      "homines",
+      "peccata",
+      "lucrari."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Think not that evil-doers surely win.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "citation": "Disticha Catonis",
+    "text": "Corporis exigui vires contemnere noli.",
+    "words": [
+      "Corporis",
+      "exigui",
+      "vires",
+      "contemnere",
+      "noli;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Do not despise the strength of a small body.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "citation": "Disticha Catonis",
+    "text": "Consilio pollet, cui vim natura negavit.",
+    "words": [
+      "Consilio",
+      "pollet,",
+      "cui",
+      "vim",
+      "natura",
+      "negavit."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "He excels by counsel, to whom nature has denied strength.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "citation": "Disticha Catonis",
+    "text": "Adversum notum noli contendere verbis;",
+    "words": [
+      "Adversum",
+      "notum",
+      "noli",
+      "contendere",
+      "verbis;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Do not contend with the known against words.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "citation": "Disticha Catonis",
+    "text": "Lis minimis verbis interdum maxima crescit.",
+    "words": [
+      "Lis",
+      "minimis",
+      "verbis",
+      "interdum",
+      "maxima",
+      "crescit."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "From the smallest words, sometimes the greatest quarrels grow.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 51,
+    "citation": "Disticha Catonis",
+    "text": "Quid deus intendat, noli perquirere sorte;",
+    "words": [
+      "Quid",
+      "deus",
+      "intendat,",
+      "noli",
+      "perquirere",
+      "sorte;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not seek by lot what god intends.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 52,
+    "citation": "Disticha Catonis",
+    "text": "Quid statuat de te, sine te deliberat ille.",
+    "words": [
+      "Quid",
+      "statuat",
+      "de",
+      "te,",
+      "sine",
+      "te",
+      "deliberat",
+      "ille."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "God decides about you without you.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 55,
+    "citation": "Disticha Catonis",
+    "text": "Litis praeteritae noli maledicta referre;",
+    "words": [
+      "Litis",
+      "praeteritae",
+      "noli",
+      "maledicta",
+      "referre;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Do not repeat the curses of past dispute.;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 58,
+    "citation": "Disticha Catonis",
+    "text": "Insipiens esto, cum tempus postulat aut res;",
+    "words": [
+      "Insipiens",
+      "esto,",
+      "cum",
+      "tempus",
+      "postulat",
+      "aut",
+      "res;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Be foolish when time or circumstance demands it.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 60,
+    "citation": "Disticha Catonis",
+    "text": "Noli tu quaedam referenti credere semper;",
+    "words": [
+      "Noli",
+      "tu",
+      "quaedam",
+      "referenti",
+      "credere",
+      "semper;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not always believe what someone tells you.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "citation": "Disticha Catonis",
+    "text": "Corporis auxilium medico committe fideli.",
+    "words": [
+      "Corporis",
+      "auxilium",
+      "medico",
+      "committe",
+      "fideli."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Commit your body's care to a faithful physician.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "citation": "Disticha Catonis",
+    "text": "Noli successus indignos ferre moleste;",
+    "words": [
+      "Noli",
+      "successus",
+      "indignos",
+      "ferre",
+      "moleste;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Do not bear unworthy success with difficulty.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 65,
+    "citation": "Disticha Catonis",
+    "text": "Prospice, qui veniant, hos casus esse ferendos;",
+    "words": [
+      "Prospice,",
+      "qui",
+      "veniant,",
+      "hos",
+      "casus",
+      "esse",
+      "ferendos;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Look ahead, those who come, these misfortunes must be endured.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 66,
+    "citation": "Disticha Catonis",
+    "text": "Rebus in adversis animum submittere noli;",
+    "words": [
+      "Rebus",
+      "in",
+      "adversis",
+      "animum",
+      "submittere",
+      "noli;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not submit your spirit to adversity;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 68,
+    "citation": "Disticha Catonis",
+    "text": "Rem, tibi quam noscis aptam, dimittere noli;",
+    "words": [
+      "Rem,",
+      "tibi",
+      "quam",
+      "noscis",
+      "aptam,",
+      "dimittere",
+      "noli;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not let go of what you know is suitable for you;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 69,
+    "citation": "Disticha Catonis",
+    "text": "Fronte capillata, post haec occasio calva.",
+    "words": [
+      "Fronte",
+      "capillata,",
+      "post",
+      "haec",
+      "occasio",
+      "calva."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Behind Time's bald, his forehead's thick with hair.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 71,
+    "citation": "Disticha Catonis",
+    "text": "Fortius ut valeas, interdum parcior esto;",
+    "words": [
+      "Fortius",
+      "ut",
+      "valeas,",
+      "interdum",
+      "parcior",
+      "esto;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "To be strong enough to live, sometimes be more sparing;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 72,
+    "citation": "Disticha Catonis",
+    "text": "Pauca voluptati debentur, plura saluti.",
+    "words": [
+      "Pauca",
+      "voluptati",
+      "debentur,",
+      "plura",
+      "saluti."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Few things are owed to pleasure, many to health.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 73,
+    "citation": "Disticha Catonis",
+    "text": "Ne nulli placeas, dum vis contemnere multos.",
+    "words": [
+      "Ne",
+      "nulli",
+      "placeas,",
+      "dum",
+      "vis",
+      "contemnere",
+      "multos."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Please no one when you wish to despise many.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 75,
+    "citation": "Disticha Catonis",
+    "text": "Tempora nec culpes, cum sis tibi causa doloris.",
+    "words": [
+      "Tempora",
+      "nec",
+      "culpes,",
+      "cum",
+      "sis",
+      "tibi",
+      "causa",
+      "doloris."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Do not blame the times, when you are the cause of your own pain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 76,
+    "citation": "Disticha Catonis",
+    "text": "Instrue praeceptis animum, nec discere cesses;",
+    "words": [
+      "Instrue",
+      "praeceptis",
+      "animum,",
+      "nec",
+      "discere",
+      "cesses;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Train your mind with precepts, and do not cease to learn;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 77,
+    "citation": "Disticha Catonis",
+    "text": "Arbitrii non est nostri, quid quisque loquatur.",
+    "words": [
+      "Arbitrii",
+      "non",
+      "est",
+      "nostri,",
+      "quid",
+      "quisque",
+      "loquatur."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "It is not our own, what each man says.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 78,
+    "citation": "Disticha Catonis",
+    "text": "Quantumcumque potes, celato crimen amici.",
+    "words": [
+      "Quantumcumque",
+      "potes,",
+      "celato",
+      "crimen",
+      "amici."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "As much as you can, conceal the fault of a friend.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 79,
+    "citation": "Disticha Catonis",
+    "text": "Sermones blandos blaesosque cavere memento;",
+    "words": [
+      "Sermones",
+      "blandos",
+      "blaesosque",
+      "cavere",
+      "memento;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Remember to avoid bland speeches and flattery;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 82,
+    "citation": "Disticha Catonis",
+    "text": "Exemplo simili ne te derideat alter.",
+    "words": [
+      "Exemplo",
+      "simili",
+      "ne",
+      "te",
+      "derideat",
+      "alter."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not let another ridicule you with a similar example.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 83,
+    "citation": "Disticha Catonis",
+    "text": "Augendo serva, ne sis, quem fama loquatur.",
+    "words": [
+      "Augendo",
+      "serva,",
+      "ne",
+      "sis,",
+      "quem",
+      "fama",
+      "loquatur."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Preserve your reputation, so that the fame of others may not harm you.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 84,
+    "citation": "Disticha Catonis",
+    "text": "Munificus facito vivas, non parcus amicis.",
+    "words": [
+      "Munificus",
+      "facito",
+      "vivas,",
+      "non",
+      "parcus",
+      "amicis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation" : "Be not a stingy, but be generous to friends.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 85,
+    "citation": "Disticha Catonis",
+    "text": "Utile consilium dominus ne despice servi;",
+    "words": [
+      "Utile",
+      "consilium",
+      "dominus",
+      "ne",
+      "despice",
+      "servi;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not despise the useful counsel of your servant;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "citation": "Disticha Catonis",
+    "text": "Nullius sensum, si prodest, tempseris unquam.",
+    "words": [
+      "Nullius",
+      "sensum,",
+      "si",
+      "prodest,",
+      "tempseris",
+      "unquam."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not always believe what someone tells you.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 87,
+    "citation": "Disticha Catonis",
+    "text": "Succumbat labor et frustra temptata relinquas.",
+    "words": [
+      "Succumbat",
+      "labor",
+      "et",
+      "frustra",
+      "temptata",
+      "relinquas."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Let your work fail, and leave your efforts unavailing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 88,
+    "citation": "Disticha Catonis",
+    "text": "Ne videare malos imitari velle tacendo.",
+    "words": [
+      "Ne",
+      "videare",
+      "malos",
+      "imitari",
+      "velle",
+      "tacendo."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not seem to wish to imitate the wicked by being silent.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 89,
+    "citation": "Disticha Catonis",
+    "text": "Iudicis auxilium sub iniqua lege rogato;",
+    "words": [
+      "Iudicis",
+      "auxilium",
+      "sub",
+      "iniqua",
+      "lege",
+      "rogato;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Seek the help of a judge under an unfair law;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 92,
+    "citation": "Disticha Catonis",
+    "text": "Multa legas facito, perlectis neglege multa;",
+    "words": [
+      "Multa",
+      "legas",
+      "facito,",
+      "perlectis",
+      "neglege",
+      "multa;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Read many things, but neglect many after reading;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "citation": "Disticha Catonis",
+    "text": "Ne dicare loquax, cum vis urbanus haberi.",
+    "words": [
+      "Ne",
+      "dicare",
+      "loquax,",
+      "cum",
+      "vis",
+      "urbanus",
+      "haberi."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not be a chatterbox, when you wish to be considered refined.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "citation": "Disticha Catonis",
+    "text": "Coniugis iratae noli tu verba timere;",
+    "words": [
+      "Coniugis",
+      "iratae",
+      "noli",
+      "tu",
+      "verba",
+      "timere;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not fear the words of an angry spouse;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "citation": "Disticha Catonis",
+    "text": "Utere quaesitis, sed ne videaris abuti;",
+    "words": [
+      "Utere",
+      "quaesitis,",
+      "sed",
+      "ne",
+      "videaris",
+      "abuti;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Use what you have, but do not abuse it;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 96,
+    "citation": "Disticha Catonis",
+    "text": "Dilige non aegra caros pietate parentes.",
+    "words": [
+      "Dilige",
+      "non",
+      "aegra",
+      "caros",
+      "pietate",
+      "parentes."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Love your dear parents, but not with a morbid piety.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 97,
+    "citation": "Disticha Catonis",
+    "text": "Quas qui suscipiunt, mendicant semper avari.",
+    "words": [
+      "Quas",
+      "qui",
+      "suscipiunt,",
+      "mendicant",
+      "semper",
+      "avari."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Those who take on burdens are always greedy beggars.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 98,
+    "citation": "Disticha Catonis",
+    "text": "Noli fortunam, quae non est, dicere caecam.",
+    "words": [
+      "Noli",
+      "fortunam,",
+      "quae",
+      "non",
+      "est,",
+      "dicere",
+      "caecam."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not call fortune blind, which is not so;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 99,
+    "citation": "Disticha Catonis",
+    "text": "Quam nemo sanctus nec honestus captat habere.",
+    "words": [
+      "Quam",
+      "nemo",
+      "sanctus",
+      "nec",
+      "honestus",
+      "captat",
+      "habere."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "It is what no saint or honest man seeks to have.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "citation": "Disticha Catonis",
+    "text": "Aeger dives habet nummos, se non habet ipsum.",
+    "words": [
+      "Aeger",
+      "dives",
+      "habet",
+      "nummos,",
+      "se",
+      "non",
+      "habet",
+      "ipsum."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "The sick rich man has money, but he does not have himself.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 101,
+    "citation": "Disticha Catonis",
+    "text": "Fer patris imperium, cum verbis exit in iram.",
+    "words": [
+      "Fer",
+      "patris",
+      "imperium,",
+      "cum",
+      "verbis",
+      "exit",
+      "in",
+      "iram."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Bear your father's command, when it leads him to anger.", 
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "citation": "Disticha Catonis",
+    "text": "Namque solent, primo quae sunt neglecta, nocere.",
+    "words": [
+      "Namque",
+      "solent,",
+      "primo",
+      "quae",
+      "sunt",
+      "neglecta,",
+      "nocere."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "For what is neglected at first tends to do harm later.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 105,
+    "citation": "Disticha Catonis",
+    "text": "Fac sapias; sic tu poteris vir fortis haberi.",
+    "words": [
+      "Fac",
+      "sapias;",
+      "sic",
+      "tu",
+      "poteris",
+      "vir",
+      "fortis",
+      "haberi."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Be wise; thus you will be considered a brave man.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 109,
+    "citation": "Disticha Catonis",
+    "text": "Utere quaesitis opibus, fuge nomen avari;",
+    "words": [
+      "Utere",
+      "quaesitis",
+      "opibus,",
+      "fuge",
+      "nomen",
+      "avari;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Use your acquired wealth, avoid the name of a miser;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 110,
+    "citation": "Disticha Catonis",
+    "text": "Quid tibi divitiae prosint, si pauper abundes?",
+    "words": [
+      "Quid",
+      "tibi",
+      "divitiae",
+      "prosint,",
+      "si",
+      "pauper",
+      "abundes?"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "What good are riches to you, if you abound in poverty?",
+    "difficulty": "easy"
+  },
+  {
+    "id": 111,
+    "citation": "Disticha Catonis",
+    "text": "Fac fugias animo, quae sunt mala gaudia vitae.",
+    "words": [
+      "Fac",
+      "fugias",
+      "animo,",
+      "quae",
+      "sunt",
+      "mala",
+      "gaudia",
+      "vitae."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Make your mind flee from the bad joys of life.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "citation": "Disticha Catonis",
+    "text": "Prospicito cuncta tacitus, quid quisque loquatur;",
+    "words": [
+      "Prospicito",
+      "cuncta",
+      "tacitus,",
+      "quid",
+      "quisque",
+      "loquatur;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Gaze at all things in silence, listen to what each person says;", 
+    "difficulty": "easy"
+  },
+  {
+    "id": 115,
+    "citation": "Disticha Catonis",
+    "text": "Multum venturi ne cures tempora fati;",
+    "words": [
+      "Multum",
+      "venturi",
+      "ne",
+      "cures",
+      "tempora",
+      "fati;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not worry about the future, the will of fate;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 116,
+    "citation": "Disticha Catonis",
+    "text": "Disce, sed a doctis; indoctos ipse doceto;",
+    "words": [
+      "Disce,",
+      "sed",
+      "a",
+      "doctis;",
+      "indoctos",
+      "ipse",
+      "doceto;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Learn, but from the learned; teach the unlearned yourself;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 119,
+    "citation": "Disticha Catonis",
+    "text": "Rursus in adversis melius sperare memento.",
+    "words": [
+      "Rursus",
+      "in",
+      "adversis",
+      "melius",
+      "sperare",
+      "memento."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Again, in adversity, remember to hope for the best.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 120,
+    "citation": "Disticha Catonis",
+    "text": "Discere ne cesses; cura sapientia crescit;",
+    "words": [
+      "Discere",
+      "ne",
+      "cesses;",
+      "cura",
+      "sapientia",
+      "crescit;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not cease to learn; for wisdom grows with care;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 121,
+    "citation": "Disticha Catonis",
+    "text": "Rara datur longo prudentia temporis usu.",
+    "words": [
+      "Rara",
+      "datur",
+      "longo",
+      "prudentia",
+      "temporis",
+      "usu."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Rarely is wisdom given through the long use of time;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 122,
+    "citation": "Disticha Catonis",
+    "text": "Una dies qualis fuerit ostendet amicus.",
+    "words": [
+      "Una",
+      "dies",
+      "qualis",
+      "fuerit",
+      "ostendet",
+      "amicus."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "One day will show what a friend is like.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 123,
+    "citation": "Disticha Catonis",
+    "text": "Non pudeat quae nescieris te velle doceri;",
+    "words": [
+      "Non",
+      "pudeat",
+      "quae",
+      "nescieris",
+      "te",
+      "velle",
+      "doceri;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not be ashamed to ask to be taught what you do not know;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 125,
+    "citation": "Disticha Catonis",
+    "text": "Alterius specta, quo sis discrimine peior.",
+    "words": [
+      "Alterius",
+      "specta,",
+      "quo",
+      "sis",
+      "discrimine",
+      "peior."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Look at another's condition, and see how much worse yours is.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "citation": "Disticha Catonis",
+    "text": "Semper enim deus iniustas ulciscitur iras.",
+    "words": [
+      "Semper",
+      "enim",
+      "deus",
+      "iniustas",
+      "ulciscitur",
+      "iras."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "For god always avenges unjust anger.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 129,
+    "citation": "Disticha Catonis",
+    "text": "Est iactura gravis quae sunt amittere damnis;",
+    "words": [
+      "Est",
+      "iactura",
+      "gravis",
+      "quae",
+      "sunt",
+      "amittere",
+      "damnis;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "It is a serious loss to lose what is already damaged;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "citation": "Disticha Catonis",
+    "text": "Sunt quaedam, quae ferre decet patienter amicum.",
+    "words": [
+      "Sunt",
+      "quaedam,",
+      "quae",
+      "ferre",
+      "decet",
+      "patienter",
+      "amicum."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "There are some things that a friend should bear patiently.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "citation": "Disticha Catonis",
+    "text": "Tempora longa tibi noli promittere vitae;",
+    "words": [
+      "Tempora",
+      "longa",
+      "tibi",
+      "noli",
+      "promittere",
+      "vitae;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Do not promise yourself a long life;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 133,
+    "citation": "Disticha Catonis",
+    "text": "Thure deum placa, vitulum sine crescat aratro;",
+    "words": [
+      "Thure",
+      "deum",
+      "placa,",
+      "vitulum",
+      "sine",
+      "crescat",
+      "aratro;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Please, offer incense to the gods, let the calf grow under the plow;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 134,
+    "citation": "Disticha Catonis",
+    "text": "Ne credas placare deum, cum caede litatur.",
+    "words": [
+      "Ne",
+      "credas",
+      "placare",
+      "deum,",
+      "cum",
+      "caede",
+      "litatur."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Do not think you can appease the gods with bloodshed.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 135,
+    "citation": "Disticha Catonis",
+    "text": "Cede locum laesus fortunae, cede potenti;",
+    "words": [
+      "Cede",
+      "locum",
+      "laesus",
+      "fortunae,",
+      "cede",
+      "potenti;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Yield your place when injured by fortune, yield to the powerful;",
+    "difficulty": "easy"
+  },
+  {
+    "id": 137,
+    "citation": "Disticha Catonis",
+    "text": "Vulnera dum sanas, dolor est medicina doloris.",
+    "words": [
+      "Vulnera",
+      "dum",
+      "sanas,",
+      "dolor",
+      "est",
+      "medicina",
+      "doloris."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "While you heal wounds, pain is the medicine of pain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 138,
+    "citation": "Disticha Catonis",
+    "text": "Mutavit mores, sed pignora prima memento.",
+    "words": [
+      "Mutavit",
+      "mores,",
+      "sed",
+      "pignora",
+      "prima",
+      "memento."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Even if you changed your way, remember the first pledges.",  
+    "difficulty": "easy"
+  },
+  {
+    "id": 139,
+    "citation": "Disticha Catonis",
+    "text": "Ne nomen subeas quod dicitur officiperdi.",
+    "words": [
+      "Ne",
+      "nomen",
+      "subeas",
+      "quod",
+      "dicitur",
+      "officiperdi."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Lest on you fall the shame that ingrates bear.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 142,
+    "citation": "Disticha Catonis",
+    "text": "Vitandum ducas inimicum nomen amici.",
+    "words": [
+      "Vitandum",
+      "ducas",
+      "inimicum",
+      "nomen",
+      "amici."
+    ],
+    "word_count": 5,
+    "translation": "Consider the name of a friend as an enemy to be avoided.",
+    "elision_count": 0,
+
+    "difficulty": "easy"
+  },
+  {
+    "id": 143,
+    "citation": "Disticha Catonis",
+    "text": "Fac discas multa, vita nil discere velle.",
+    "words": [
+      "Fac",
+      "discas",
+      "multa,",
+      "vita",
+      "nil",
+      "discere",
+      "velle."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Learn many things; for in life, do not refuse to learn.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 144,
+    "citation": "Disticha Catonis",
+    "text": "Miraris verbis nudis me scribere versus?",
+    "words": [
+      "Miraris",
+      "verbis",
+      "nudis",
+      "me",
+      "scribere",
+      "versus?"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Are you surprised that I write verses with bare words?",
+    "difficulty": "easy"
+  },
+  {
+    "id": 145,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Lumina mane manus surgens gelida lavet aqua.",
+    "words": [
+      "lumina",
+      "mane",
+      "manus",
+      "surgens",
+      "gelida",
+      "lavet",
+      "aqua"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 17,
+    "elision_count": 0,
+    "translation": "In the morning, upon rising, wash your hands with cold water.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Sit brevis, aut nullus, tibi somnus meridianus.",
+    "words": [
+      "sit",
+      "brevis",
+      "aut",
+      "nullus",
+      "tibi",
+      "somnus",
+      "meridianus"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Take a short afternoon nap, or none at all.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Ex magna coena stomacho fit maxima poena.",
+    "words": [
+      "ex",
+      "magna",
+      "coena",
+      "stomacho",
+      "fit",
+      "maxima",
+      "poena"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "A large dinner causes great distress to the stomach.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 148,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Vina probantur odore, sapore, nitore, colore.",
+    "words": [
+      "vina",
+      "probantur",
+      "odore",
+      "sapore",
+      "nitore",
+      "colore"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 17,
+    "elision_count": 0,
+    "translation": "Wines should be tested for smell, taste, brightness, and color.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 149,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "De qua potetur, stomachus, non inde gravetur.",
+    "words": [
+      "de",
+      "qua",
+      "potetur",
+      "stomachus",
+      "non",
+      "inde",
+      "gravetur"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Let the stomach not be burdened by what you drink.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 150,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Autumni fructus caveas, ne sint tibi luctus.",
+    "words": [
+      "autumni",
+      "fructus",
+      "caveas",
+      "ne",
+      "sint",
+      "tibi",
+      "luctus"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "In autumn beware that fruits do not become cause for mourning.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 151,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "De mensa sume quantum vis tempore brumae.",
+    "words": [
+      "de",
+      "mensa",
+      "sume",
+      "quantum",
+      "vis",
+      "tempore",
+      "brumae"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Eat as much as you like in winter.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 152,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Salvia cum ruta faciunt tibi pocula tuta;",
+    "words": [
+      "salvia",
+      "cum",
+      "ruta",
+      "faciunt",
+      "tibi",
+      "pocula",
+      "tuta"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Sage combined with rue makes your drinks safe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 153,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Non comedas crustam, choleram quia gignit adustam.",
+    "words": [
+      "non",
+      "comedas",
+      "crustam",
+      "choleram",
+      "quia",
+      "gignit",
+      "adustam"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Do not eat the crust, since it causes burning choler.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 154,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Ilia porcorum bona sunt, mala sunt reliquorum.",
+    "words": [
+      "ilia",
+      "porcorum",
+      "bona",
+      "sunt",
+      "mala",
+      "sunt",
+      "reliquorum"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 17,
+    "elision_count": 0,
+    "translation": "The intestines of pigs are good; those of other animals are bad.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 155,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Impedit urinam mustum, solvit cito ventrem.",
+    "words": [
+      "impedit",
+      "urinam",
+      "mustum",
+      "solvit",
+      "cito",
+      "ventrem"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Unfermented wine interferes with urination, yet acts as a laxative.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 156,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Hepatis emphraxin, splenis generat, lapidemque.",
+    "words": [
+      "hepatis",
+      "emphraxin",
+      "splenis",
+      "generat",
+      "lapidemque"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "It (=must) causes stoppage of the liver and spleen, and engenders kidney stone.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 157,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Sunt nutritivae multum cames vitulinae.",
+    "words": [
+      "sunt",
+      "nutritivae",
+      "multum",
+      "cames",
+      "vitulinae"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "Veal is highly nourishing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 158,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Lenit et humectat, solvit sine febre butyrum.",
+    "words": [
+      "lenit",
+      "et",
+      "humectat",
+      "solvit",
+      "sine",
+      "febre",
+      "butyrum"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Butter softens, moistens, and acts as a laxative without inducing fever.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 159,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Caseus est frigidus, stipans, grossus, quoque durus.",
+    "words": [
+      "caseus",
+      "est",
+      "frigidus",
+      "stipans",
+      "grossus",
+      "quoque",
+      "durus"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Cheese, is cold, constipating, crude, and hard.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 160,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Languenti stomacho caseus addit opem;",
+    "words": [
+      "languenti",
+      "stomacho",
+      "caseus",
+      "addit",
+      "opem"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "Cheese brings help to a weak stomach.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 161,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Singula post ova pocula sume nova.",
+    "words": [
+      "singula",
+      "post",
+      "ova",
+      "pocula",
+      "sume",
+      "nova"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "After eating eggs, drink a fresh cup of something.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 162,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Unica nux prodest, nocet altera, tertia mors est.",
+    "words": [
+      "unica",
+      "nux",
+      "prodest",
+      "nocet",
+      "altera",
+      "tertia",
+      "mors",
+      "est"
+    ],
+    "word_count": 8,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "One kind of nut is good, a second is harmful, a third kind brings death.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 163,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Adde potum pyro. Nux est medicina veneno.",
+    "words": [
+      "adde",
+      "potum",
+      "pyro",
+      "nux",
+      "est",
+      "medicina",
+      "veneno"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Add a drink of wine to your pear. The nut is medicine against poison.",
+    "difficulty": "easy"
+  },
+  {
+    "id":164,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Cruda gravant stomachum, relevant pyra cocta gravatum.",
+    "words": [
+      "cruda",
+      "gravant",
+      "stomachum",
+      "relevant",
+      "pyra",
+      "cocta",
+      "gravatum"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 17,
+    "elision_count": 0,
+    "translation": "Raw they (=pears) aggravate the stomach; cooked, pears relieve the aggravation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 165,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Post pyra da potum: post poma vade cacatum.",
+    "words": [
+      "post",
+      "pyra",
+      "da",
+      "potum",
+      "post",
+      "poma",
+      "vade",
+      "cacatum"
+    ],
+    "word_count": 8,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "After the pear, drink wine; after the apple empty your bowels.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 166,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Infrigidant, laxant, multum prosunt tibi pruna.",
+    "words": [
+      "infrigidant",
+      "laxant",
+      "multum",
+      "prosunt",
+      "tibi",
+      "pruna"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Plums are quite beneficial to you: they are cooling and cathartic.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 167,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Passula non spleni, tussi valet, est bona reni.",
+    "words": [
+      "passula",
+      "non",
+      "spleni",
+      "tussi",
+      "valet",
+      "est",
+      "bona",
+      "reni"
+    ],
+    "word_count": 8,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Raisins are bad for the spleen, but good for a cough or for the kidneys.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 168,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Scrofa, tumor, glandes, ficus cataplasmate cedunt.",
+    "words": [
+      "scrofa",
+      "tumor",
+      "glandes",
+      "ficus",
+      "cataplasmate",
+      "cedunt"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Fig in a poultice removes scrofula, tumor, and glandulas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 169,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Iunge papaver ei, confracta fans tenet ossa.",
+    "words": [
+      "iunge",
+      "papaver",
+      "ei",
+      "confracta",
+      "fans",
+      "tenet",
+      "ossa"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Add poppy to it, and it helps to mend broken bones.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 170,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Pediculos veneremque facit, sed cuilibet obstat.",
+    "words": [
+      "pediculos",
+      "veneremque",
+      "facit",
+      "sed",
+      "cuilibet",
+      "obstat"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 17,
+    "elision_count": 0,
+    "translation": "The fig generates lice and lust, but it resists anything.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 171,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Provocat urinam mustum, cito solvit et inflat.",
+    "words": [
+      "provocat",
+      "urinam",
+      "mustum",
+      "cito",
+      "solvit",
+      "et",
+      "inflat"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Must causes urine, is laxative and brings on gas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 172,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Siccos infestat nervos et pinguia siccat.",
+    "words": [
+      "siccos",
+      "infestat",
+      "nervos",
+      "et",
+      "pinguia",
+      "siccat"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "Harms those of dry humor, and dries up the nerve of the fats.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 173,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Reddit lingua bonum nutrimentum medicinae.",
+    "words": [
+      "reddit",
+      "lingua",
+      "bonum",
+      "nutrimentum",
+      "medicinae"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "Tongue (of all animals) gives good medicinal nourishment.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 174,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Digeritur facile pulmo, cito labitur ipse.",
+    "words": [
+      "digeritur",
+      "facile",
+      "pulmo",
+      "cito",
+      "labitur",
+      "ipse"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "The lung (of all animals) is easily digested and is quickly expelled.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 175,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Est melius cerebrum gallinarum reliquorum.",
+    "words": [
+      "est",
+      "melius",
+      "cerebrum",
+      "gallinarum",
+      "reliquorum"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "The brain of chickens is better than any other animal's.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 176,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Semen foeniculi fugat et spiracula culi.",
+    "words": [
+      "semen",
+      "foeniculi",
+      "fugat",
+      "et",
+      "spiracula",
+      "culi"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "The fennel seed loosens gas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 177,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Emendat visum, stomachum confortat anisum.",
+    "words": [
+      "emendat",
+      "visum",
+      "stomachum",
+      "confortat",
+      "anisum"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Anise improves vision and comforts the stomach.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 178,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Copia dulcoris anisi sit melioris.",
+    "words": [
+      "copia",
+      "dulcoris",
+      "anisi",
+      "sit",
+      "melioris"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Sweeter anise is better.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 179,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Vas condimenti praeponi debet edenti.",
+    "words": [
+      "vas",
+      "condimenti",
+      "praeponi",
+      "debet",
+      "edenti"
+    ],
+    "word_count": 5,
+    "syllable_estimate": 13,
+    "elision_count": 0,
+    "translation": "The salt dish should be placed on the table at mealtime.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 180,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Sal virus refugat et non sapidumque saporat;",
+    "words": [
+      "sal",
+      "virus",
+      "refugat",
+      "et",
+      "non",
+      "sapidumque",
+      "saporat"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Salt wards off poison, and adds taste to a man's food,",
+    "difficulty": "easy"
+  },
+  {
+    "id": 181,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Hi fervore vigent tres: salsus, amarus, acutus.",
+    "words": [
+      "hi",
+      "fervore",
+      "vigent",
+      "tres",
+      "salsus",
+      "amarus",
+      "acutus"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "These three flavors have a warming effect: the salty, the bitter, and the sharp.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Alget acetosus, sic stipans, ponticus atque;",
+    "words": [
+      "alget",
+      "acetosus",
+      "sic",
+      "stipans",
+      "ponticus",
+      "atque"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "The sour, like the styptic, and the acidulous have a cooling effect.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Dixerunt malvam veteres, quia molliat alvum.",
+    "words": [
+      "dixerunt",
+      "malvam",
+      "veteres",
+      "quia",
+      "molliat",
+      "alvum"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 15,
+    "elision_count": 0,
+    "translation": "The Ancients called mallow \"malva\" because it softens the belly (=alvum).",
+    "difficulty": "easy"
+  },
+  {
+    "id": 184,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Cur moriatur homo, cui salvia crescit in horto?",
+    "words": [
+      "cur",
+      "moriatur",
+      "homo",
+      "cui",
+      "salvia",
+      "crescit",
+      "in",
+      "horto"
+    ],
+    "word_count": 8,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Why should a man die in whose garden grows sage?",
+    "difficulty": "easy"
+  },
+  {
+    "id": 185,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Contra vim mortis non est medicamen in hortis.",
+    "words": [
+      "contra",
+      "vim",
+      "mortis",
+      "non",
+      "est",
+      "medicamen",
+      "in",
+      "hortis"
+    ],
+    "word_count": 8,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "Against the power of death there is not medicine in our gardens",
+    "difficulty": "easy"
+  },
+  {
+    "id": 186,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Cocta facit ruta de pulcibus loca tuta.",
+    "words": [
+      "cocta",
+      "facit",
+      "ruta",
+      "de",
+      "pulcibus",
+      "loca",
+      "tuta"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "When cooked, rue makes the house safe from fleas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 187,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Auribus infusus succus vermes necat eius.",
+    "words": [
+      "auribus",
+      "infusus",
+      "succus",
+      "vermes",
+      "necat",
+      "eius"
+    ],
+    "word_count": 6,
+    "syllable_estimate": 14,
+    "elision_count": 0,
+    "translation": "The (willow's) juice kills worms when poured into their ears.",
+    "difficulty": "easy"
+  },
+  {
+    "id": 188,
+    "citation": "Regimen Sanitatis Salernitanum",
+    "text": "Est et humor cholerae, qui competit impetuosis.",
+    "words": [
+      "est",
+      "et",
+      "humor",
+      "cholerae",
+      "qui",
+      "competit",
+      "impetuosis"
+    ],
+    "word_count": 7,
+    "syllable_estimate": 16,
+    "elision_count": 0,
+    "translation": "Next is the choleric humor, which is known to be impulsive:",
+    "difficulty": "easy"
+  }
+
+]
