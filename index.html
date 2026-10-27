@@ -10,7 +10,8 @@
   <title>HEXAMERTLE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">  <style>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Noto+Serif+JP:wght@500;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
     :root {
       --bg: #F8F5EE;
       --surface: #FFFFFF;
@@ -26,7 +27,7 @@
       --primary: #8C2D19;
       --accent: #B83A20;
       --radius: 8px;
-      --font-serif: 'EB Garamond', Georgia, serif;
+      --font-serif: 'EB Garamond', 'Noto Serif JP', Georgia, serif;
       --font-display: 'Cinzel', serif;
     }
 
@@ -56,12 +57,6 @@
       font-size: 2rem;
       letter-spacing: 2px;
       color: var(--primary);
-    }
-
-    .subtitle {
-      font-size: 0.95rem;
-      font-style: italic;
-      color: var(--text-muted);
     }
 
     .controls {
@@ -130,22 +125,20 @@
     }
 
     .slot {
-    min-width: 60px;
-    height: 42px;
-    padding: 0 10px;
-    border-radius: var(--radius);
-    border: 1.5px dashed var(--card-border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-serif); /* 明示的に指定 */
-    font-size: 1.15rem;
-    font-weight: 500; /* 600だと太すぎてuの底が潰れるため500に変更 */
-    font-feature-settings: "cv01" 0, "cv02" 0;
-    text-transform: none;
-    background: rgba(255,255,255,0.4);
-    user-select: none;
-    transition: transform 0.15s, background-color 0.2s;
+      min-width: 60px;
+      height: 42px;
+      padding: 0 10px;
+      border-radius: var(--radius);
+      border: 1.5px dashed var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: 500;
+      background: rgba(255,255,255,0.4);
+      user-select: none;
+      transition: transform 0.15s, background-color 0.2s;
     }
 
     .slot.correct {
@@ -180,16 +173,6 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.03);
     }
 
-    .card-label {
-      font-family: var(--font-display);
-      font-size: 0.75rem;
-      letter-spacing: 1px;
-      color: var(--text-muted);
-      margin-bottom: 8px;
-      text-align: center;
-      text-transform: none;
-    }
-
     .current-line-slots {
       display: flex;
       gap: 6px;
@@ -209,19 +192,18 @@
     }
 
     .word-chip {
-    background: var(--surface);
-    border: 1px solid var(--card-border);
-    border-bottom: 2px solid var(--card-border);
-    padding: 8px 14px;
-    border-radius: 6px;
-    font-family: var(--font-serif); /* 明示的に指定 */
-    font-size: 1.15rem;
-    font-weight: 500;
-    text-transform: none;
-    cursor: pointer;
-    user-select: none;
-    transition: all 0.15s;
-}
+      background: var(--surface);
+      border: 1px solid var(--card-border);
+      border-bottom: 2px solid var(--card-border);
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s;
+    }
 
     .word-chip:hover {
       border-color: var(--primary);
@@ -293,12 +275,19 @@
       border-radius: 12px;
       width: 100%;
       max-width: 520px;
+      max-height: 85vh;
+      overflow-y: auto;
       padding: 24px;
       border: 1px solid var(--card-border);
       text-align: center;
       position: relative;
       box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+font-family: var(--font-serif);
+
     }
+.modal-content h2 {
+  font-family: var(--font-display);
+}
 
     .share-btn {
       background: var(--green);
@@ -315,7 +304,7 @@
       background: none;
       border: none;
       padding: 0;
-      font-family: inherit;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
       text-transform: none;
       font-feature-settings: normal;
       font-variant: normal;
@@ -366,7 +355,7 @@
   </main>
 
   <footer class="app-footer">
-    <button class="footer-link-btn" onclick="openSourcesModal()">What is this?</button>
+    <button class="footer-link-btn" id="footerLinkText" onclick="openSourcesModal()">遊び方 &amp; 出典</button>
   </footer>
 
   <div id="resultModal" class="modal-overlay">
@@ -385,37 +374,51 @@
   </div>
 
   <div id="sourcesModal" class="modal-overlay" onclick="closeSourcesModal(event)">
-    <div class="modal-content" style="max-width: 500px; text-align: left;" onclick="event.stopPropagation()">
-      <h2 style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
-        What is this?
-      </h2>
-      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; text-align: center;">
-        HEXAMERTLE is a puzzle to reconstruct Latin dactylic hexameter verse from actual collections.
-        
-      </p>
+    <div class="modal-content" style="max-width: 520px; text-align: left;" onclick="event.stopPropagation()">
+      
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 4px;">
+        <div class="diff-toggle">
+          <button id="langJaBtn" class="diff-btn active" onclick="setModalLang('ja')">日本語</button>
+          <button id="langEnBtn" class="diff-btn" onclick="setModalLang('en')">English</button>
+        </div>
+      </div>
 
-      <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.88rem; line-height: 1.5;">
-        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 10px 14px;">
+      <h2 id="mTitle" style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
+        遊び方と出典
+      </h2>
+      
+      <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text); margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 14px;">
+        <p id="mRuleDesc" style="margin-bottom: 8px;">
+         バラバラになったラテン語の単語を正しい順に並べ、ヘクサメトロスの詩行を完成させるパズルです。下に並んでいるラテン語の単語をクリックすると左から順番に並んでいきます。並べ終わったらVerifica!で回答できます。上記のRandomボタンを押すと、ランダムな詩行を選ぶことができます。
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 6px; background: var(--bg); padding: 10px; border-radius: 6px; font-size: 0.8rem;">
+          <div id="mCol1">🟩 <strong>緑：</strong> 単語も位置も正しい</div>
+          <div id="mCol2">🟨 <strong>黄：</strong> 詩行に含まれるが位置違い</div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.82rem; line-height: 1.5;">
+        <div id="mSourcesTitle" style="font-weight: bold; color: var(--text); margin-bottom: -4px;">元のラテン語の文は、下の文献から引いています。</div>
+        
+        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 8px 12px;">
           <div style="font-weight: bold; color: var(--text);">Disticha Catonis</div>
-          <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
-            • <strong>Latin:</strong> <em>Disticha Catonis</em> (from <a href="https://www.thelatinlibrary.com/catoni.html" target="_blank" style="color: var(--primary);">The Latin Library</a>)<br>
-            • <strong>English:</strong> mainly translated by HalCeKey<br>
-            • <strong>With the help of</strong> Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em> (1922).
+          <div style="color: var(--text-muted); margin-top: 2px;">
+            • <strong>Latin:</strong> <em>Disticha Catonis</em> (<a href="https://www.thelatinlibrary.com/catoni.html" target="_blank" style="color: var(--primary);">The Latin Library</a>)<br>
+            • <span id="mCatonTrans"><strong>English:</strong> HalCeKeyがWayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.を参考に</span>
           </div>
         </div>
 
-        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 10px 14px;">
+        <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 8px 12px;">
           <div style="font-weight: bold; color: var(--text);">Regimen Sanitatis Salernitanum</div>
-          <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
-            • <strong>Latin:</strong> <em>Regimen Sanitatis Salerni</em> (from <a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank" style="color: var(--primary);">Accademia Jaufré Rudel</a>)<br>
-            • <strong>English:</strong> mainly translated by HalCeKey<br>
-            • <strong>With the help of</strong> John Ordronaux, <em>Code of Health of the School of Salernum</em> (1870).
+          <div style="color: var(--text-muted); margin-top: 2px;">
+            • <strong>Latin:</strong> <em>Regimen Sanitatis Salerni</em> (<a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank" style="color: var(--primary);">Accademia Jaufré Rudel</a>)<br>
+            • <span id="mSalernTrans"><strong>English:</strong> HalCeKeyがJohn Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.を参考に</span>
           </div>
         </div>
       </div>
 
       <div style="margin-top: 20px; text-align: center;">
-        <button class="btn btn-sub" onclick="closeSourcesModal()">Close</button>
+        <button id="mCloseBtn" class="btn btn-submit" style="padding: 6px 20px;" onclick="closeSourcesModal()">閉じる</button>
       </div>
     </div>
   </div>
@@ -462,6 +465,49 @@
     const MAX_ATTEMPTS = 6;
     let isGameOver = false;
     let shuffledIndices = [];
+
+    let currentModalLang = 'ja';
+    const langTexts = {
+      ja: {
+        footerBtn: "遊び方 & 出典",
+        title: "遊び方 & 出典",
+        ruleDesc: "バラバラになったラテン語の単語を正しい順に並べ、ヘクサメトロスの詩行を完成させるパズルです。下に並んでいるラテン語の単語をクリックすると左から順番に並んでいきます。並べ終わったらVerifica!で回答できます。",
+        col1: "🟩 <strong>緑：</strong> 単語も位置も正しい",
+        col2: "🟨 <strong>黄：</strong> 位置が違う",
+        sourcesTitle: "元のラテン語の文は、下の文献から引いています。",
+        catonTrans: "<strong>英訳等:</strong> HalCeKeyがWayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.を参考に",
+        salernTrans: "<strong>英訳等:</strong> HalCeKeyがJohn Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.を参考に",
+        closeBtn: "閉じる"
+      },
+      en: {
+        footerBtn: "How to Play & Sources",
+        title: "HOW TO PLAY & SOURCES",
+        ruleDesc: "Reconstruct Latin dactylic hexameters by assembling shuffled words into a single line (max 6 attempts). The origin of the verses is from actual writing listed below. Click the words below to assemble them in order. When you have a full line, click Verifica! to submit your guess. Click the Random button to load a random verse.",
+        col1: "🟩 <strong>Green:</strong> Correct word and position",
+        col2: "🟨 <strong>Yellow:</strong> Wrong position",
+        sourcesTitle: "Sources:",
+        catonTrans: "<strong>English:</strong> HalCeKey with the help of Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.",
+        salernTrans: "<strong>English:</strong> HalCeKey with the help of John Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.",
+        closeBtn: "Close"
+      }
+    };
+
+    function setModalLang(lang) {
+      currentModalLang = lang;
+      document.getElementById('langJaBtn').classList.toggle('active', lang === 'ja');
+      document.getElementById('langEnBtn').classList.toggle('active', lang === 'en');
+
+      const t = langTexts[lang];
+      document.getElementById('footerLinkText').textContent = t.footerBtn;
+      document.getElementById('mTitle').innerHTML = t.title;
+      document.getElementById('mRuleDesc').innerHTML = t.ruleDesc;
+      document.getElementById('mCol1').innerHTML = t.col1;
+      document.getElementById('mCol2').innerHTML = t.col2;
+      document.getElementById('mSourcesTitle').textContent = t.sourcesTitle;
+      document.getElementById('mCatonTrans').innerHTML = t.catonTrans;
+      document.getElementById('mSalernTrans').innerHTML = t.salernTrans;
+      document.getElementById('mCloseBtn').textContent = t.closeBtn;
+    }
 
     function clean(w) {
       return w.replace(/[^a-zA-Zāēīōūȳăĕĭŏŭ]/g, '').toLowerCase();
@@ -730,7 +776,6 @@
         });
         text += '\n';
       });
-      text += `\n#Hexametrdle\nhttps://halcekey.github.io/hexamertle/`;
       navigator.clipboard.writeText(text);
       alert('Copied to clipboard!');
     }
@@ -749,9 +794,19 @@
       }
     }
 
+    function checkFirstVisit() {
+      const hasVisited = localStorage.getItem('hexametrdle_help_shown');
+      if (!hasVisited) {
+        setModalLang('ja'); 
+        openSourcesModal();
+        localStorage.setItem('hexametrdle_help_shown', 'true');
+      }
+    }
+
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         closeSourcesModal();
+        if (typeof closeModal === 'function') closeModal();
       }
       if (isGameOver) return;
       if (e.key === 'Enter') {
@@ -763,7 +818,10 @@
       }
     });
 
-    window.onload = initData;
+    window.onload = async () => {
+      await initData();
+      checkFirstVisit();
+    };
   </script>
 </body>
 </html>
