@@ -1,0 +1,2205 @@
+[
+  {
+    "id": 300,
+    "citation": "Horatius, Epistulae I",
+    "text": "Est mihi purgatum crebro qui personet aurem:",
+    "words": [
+      "Est",
+      "mihi",
+      "purgatum",
+      "crebro",
+      "qui",
+      "personet",
+      "aurem:"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "There is a voice that constantly rings in my well-rinsed ear:",
+    "mode": "classical"
+  },
+  {
+    "id": 301,
+    "citation": "Horatius, Epistulae I",
+    "text": "condo et compono quae mox depromere possim.",
+    "words": [
+      "condo",
+      "et",
+      "compono",
+      "quae",
+      "mox",
+      "depromere",
+      "possim."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "I store up and arrange what I may soon bring forth for use.",
+    "mode": "classical"
+  },
+  {
+    "id": 302,
+    "citation": "Horatius, Epistulae I",
+    "text": "Restat ut his ego me ipse regam solerque elementis.",
+    "words": [
+      "Restat",
+      "ut",
+      "his",
+      "ego",
+      "me",
+      "ipse",
+      "regam",
+      "solerque",
+      "elementis."
+    ],
+    "word_count": 9,
+    "elision_count": 2,
+    "translation": "It remains for me to rule and comfort myself with these first principles.",
+    "mode": "classical"
+  },
+  {
+    "id": 303,
+    "citation": "Horatius, Epistulae I",
+    "text": "Est quadam prodire tenus, si non datur ultra.",
+    "words": [
+      "Est",
+      "quadam",
+      "prodire",
+      "tenus,",
+      "si",
+      "non",
+      "datur",
+      "ultra."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "It is worth advancing to a certain point, even if one may not go further.",
+    "mode": "classical"
+  },
+  {
+    "id": 304,
+    "citation": "Horatius, Epistulae I",
+    "text": "Feruet auaritia miseroque cupidine pectus:",
+    "words": [
+      "Feruet",
+      "auaritia",
+      "miseroque",
+      "cupidine",
+      "pectus:"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Does your heart burn with greed and wretched desire?",
+    "mode": "classical"
+  },
+  {
+    "id": 305,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vilius argentum est auro, uirtutibus aurum.",
+    "words": [
+      "Vilius",
+      "argentum",
+      "est",
+      "auro,",
+      "uirtutibus",
+      "aurum."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Silver is cheaper than gold, and gold than virtue.",
+    "mode": "classical"
+  },
+  {
+    "id": 306,
+    "citation": "Horatius, Epistulae I",
+    "text": "O ciues, ciues, quaerenda pecunia primum est;",
+    "words": [
+      "O",
+      "ciues,",
+      "ciues,",
+      "quaerenda",
+      "pecunia",
+      "primum",
+      "est;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "O citizens, citizens, money must be sought first;",
+    "mode": "classical"
+  },
+  {
+    "id": 307,
+    "citation": "Horatius, Epistulae I",
+    "text": "idem eadem possunt horam durare probantes?",
+    "words": [
+      "idem",
+      "eadem",
+      "possunt",
+      "horam",
+      "durare",
+      "probantes?"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Can the same men persist for a single hour in liking the same things?",
+    "mode": "classical"
+  },
+  {
+    "id": 308,
+    "citation": "Horatius, Epistulae I",
+    "text": "nil ait esse prius, melius nil caelibe uita;",
+    "words": [
+      "nil",
+      "ait",
+      "esse",
+      "prius,",
+      "melius",
+      "nil",
+      "caelibe",
+      "uita;"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "He says nothing is finer, nothing better than a single life;",
+    "mode": "classical"
+  },
+  {
+    "id": 309,
+    "citation": "Horatius, Epistulae I",
+    "text": "si non est, iurat bene solis esse maritis.",
+    "words": [
+      "si",
+      "non",
+      "est,",
+      "iurat",
+      "bene",
+      "solis",
+      "esse",
+      "maritis."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "If he is not married, he swears that only husbands are happy.",
+    "mode": "classical"
+  },
+  {
+    "id": 310,
+    "citation": "Horatius, Epistulae I",
+    "text": "Cur ita crediderim, nisi quid te distinet, audi.",
+    "words": [
+      "Cur",
+      "ita",
+      "crediderim,",
+      "nisi",
+      "quid",
+      "te",
+      "distinet,",
+      "audi."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Why I think so, unless something detains you, listen.",
+    "mode": "classical"
+  },
+  {
+    "id": 311,
+    "citation": "Horatius, Epistulae I",
+    "text": "Antenor censet belli praecidere causam;",
+    "words": [
+      "Antenor",
+      "censet",
+      "belli",
+      "praecidere",
+      "causam;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Antenor advises cutting off the very cause of the war;",
+    "mode": "classical"
+  },
+  {
+    "id": 312,
+    "citation": "Horatius, Epistulae I",
+    "text": "hunc amor, ira quidem communiter urit utrumque.",
+    "words": [
+      "hunc",
+      "amor,",
+      "ira",
+      "quidem",
+      "communiter",
+      "urit",
+      "utrumque."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Love burns the one, while anger inflames them both alike.",
+    "mode": "classical"
+  },
+  {
+    "id": 313,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vt iugulent hominem surgunt de nocte latrones;",
+    "words": [
+      "Vt",
+      "iugulent",
+      "hominem",
+      "surgunt",
+      "de",
+      "nocte",
+      "latrones;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Robbers rise by night to cut a man's throat;",
+    "mode": "classical"
+  },
+  {
+    "id": 314,
+    "citation": "Horatius, Epistulae I",
+    "text": "quod satis est cui contingit, nil amplius optet.",
+    "words": [
+      "quod",
+      "satis",
+      "est",
+      "cui",
+      "contingit,",
+      "nil",
+      "amplius",
+      "optet."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Let him to whom enough has fallen wish for nothing more.",
+    "mode": "classical"
+  },
+  {
+    "id": 315,
+    "citation": "Horatius, Epistulae I",
+    "text": "Sincerum est nisi uas, quodcumque infundis acescit.",
+    "words": [
+      "Sincerum",
+      "est",
+      "nisi",
+      "uas,",
+      "quodcumque",
+      "infundis",
+      "acescit."
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "Unless the vessel is clean, whatever you pour in turns sour.",
+    "mode": "classical"
+  },
+  {
+    "id": 316,
+    "citation": "Horatius, Epistulae I",
+    "text": "Sperne uoluptates; nocet empta dolore uoluptas.",
+    "words": [
+      "Sperne",
+      "uoluptates;",
+      "nocet",
+      "empta",
+      "dolore",
+      "uoluptas."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Scorn pleasures; pleasure bought with pain does harm.",
+    "mode": "classical"
+  },
+  {
+    "id": 317,
+    "citation": "Horatius, Epistulae I",
+    "text": "Semper auarus eget; certum uoto pete finem.",
+    "words": [
+      "Semper",
+      "auarus",
+      "eget;",
+      "certum",
+      "uoto",
+      "pete",
+      "finem."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "The greedy man is always in want; set a fixed limit to your desires.",
+    "mode": "classical"
+  },
+  {
+    "id": 318,
+    "citation": "Horatius, Epistulae I",
+    "text": "Inuidus alterius macrescit rebus opimis;",
+    "words": [
+      "Inuidus",
+      "alterius",
+      "macrescit",
+      "rebus",
+      "opimis;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "The envious man grows lean at the prosperity of another;",
+    "mode": "classical"
+  },
+  {
+    "id": 319,
+    "citation": "Horatius, Epistulae I",
+    "text": "Bella quis et paces longum diffundit in aeuum?",
+    "words": [
+      "Bella",
+      "quis",
+      "et",
+      "paces",
+      "longum",
+      "diffundit",
+      "in",
+      "aeuum?"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Who spreads wars and peace far into the coming ages?",
+    "mode": "classical"
+  },
+  {
+    "id": 320,
+    "citation": "Horatius, Epistulae I",
+    "text": "grata superueniet quae non sperabitur hora.",
+    "words": [
+      "grata",
+      "superueniet",
+      "quae",
+      "non",
+      "sperabitur",
+      "hora."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Welcome will come the hour that is not hoped for.",
+    "mode": "classical"
+  },
+  {
+    "id": 321,
+    "citation": "Horatius, Epistulae I",
+    "text": "Si melius quid habes, arcesse uel imperium fer.",
+    "words": [
+      "Si",
+      "melius",
+      "quid",
+      "habes,",
+      "arcesse",
+      "uel",
+      "imperium",
+      "fer."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "If you have anything better, impart it; if not, submit to my rule.",
+    "mode": "classical"
+  },
+  {
+    "id": 322,
+    "citation": "Horatius, Epistulae I",
+    "text": "Iamdudum splendet focus et tibi munda supellex.",
+    "words": [
+      "Iamdudum",
+      "splendet",
+      "focus",
+      "et",
+      "tibi",
+      "munda",
+      "supellex."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Long has my hearth been shining and the furniture made neat for you.",
+    "mode": "classical"
+  },
+  {
+    "id": 323,
+    "citation": "Horatius, Epistulae I",
+    "text": "Quo mihi fortunam, si non conceditur uti?",
+    "words": [
+      "Quo",
+      "mihi",
+      "fortunam,",
+      "si",
+      "non",
+      "conceditur",
+      "uti?"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "What good is fortune to me, if I am not permitted to use it?",
+    "mode": "classical"
+  },
+  {
+    "id": 324,
+    "citation": "Horatius, Epistulae I",
+    "text": "Quo spectanda modo, quo sensu credis et ore?",
+    "words": [
+      "Quo",
+      "spectanda",
+      "modo,",
+      "quo",
+      "sensu",
+      "credis",
+      "et",
+      "ore?"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "In what manner, with what mind and countenance do you think he should be viewed?",
+    "mode": "classical"
+  },
+  {
+    "id": 325,
+    "citation": "Horatius, Epistulae I",
+    "text": "gaude quod spectant oculi te mille loquentem;",
+    "words": [
+      "gaude",
+      "quod",
+      "spectant",
+      "oculi",
+      "te",
+      "mille",
+      "loquentem;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Rejoice that a thousand eyes behold you as you speak;",
+    "mode": "classical"
+  },
+  {
+    "id": 326,
+    "citation": "Horatius, Epistulae I",
+    "text": "ut cuique est aetas, ita quemque facetus adopta.",
+    "words": [
+      "ut",
+      "cuique",
+      "est",
+      "aetas,",
+      "ita",
+      "quemque",
+      "facetus",
+      "adopta."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "According to each man's age, courteously adopt him as your own.",
+    "mode": "classical"
+  },
+  {
+    "id": 327,
+    "citation": "Horatius, Epistulae I",
+    "text": "dum pueris omnis pater et matercula pallet.",
+    "words": [
+      "dum",
+      "pueris",
+      "omnis",
+      "pater",
+      "et",
+      "matercula",
+      "pallet."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "While every father and fond mother grows pale with anxiety for their children.",
+    "mode": "classical"
+  },
+  {
+    "id": 328,
+    "citation": "Horatius, Epistulae I",
+    "text": "Non inuisa feres pueris munuscula paruis.",
+    "words": [
+      "Non",
+      "inuisa",
+      "feres",
+      "pueris",
+      "munuscula",
+      "paruis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "You will bring small gifts that are not unwelcome to little children.",
+    "mode": "classical"
+  },
+  {
+    "id": 329,
+    "citation": "Horatius, Epistulae I",
+    "text": "Tam teneor dono quam si dimittar onustus.",
+    "words": [
+      "Tam",
+      "teneor",
+      "dono",
+      "quam",
+      "si",
+      "dimittar",
+      "onustus."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "I am as much obliged by the offer as if I were sent away laden with gifts.",
+    "mode": "classical"
+  },
+  {
+    "id": 330,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vt libet; haec porcis hodie comedenda relinques.",
+    "words": [
+      "Vt",
+      "libet;",
+      "haec",
+      "porcis",
+      "hodie",
+      "comedenda",
+      "relinques."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "As you please; you will leave them to be eaten by the swine today.",
+    "mode": "classical"
+  },
+  {
+    "id": 331,
+    "citation": "Horatius, Epistulae I",
+    "text": "Prodigus et stultus donat quae spernit et odit;",
+    "words": [
+      "Prodigus",
+      "et",
+      "stultus",
+      "donat",
+      "quae",
+      "spernit",
+      "et",
+      "odit;"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "A prodigal and foolish man gives away what he despises and hates;",
+    "mode": "classical"
+  },
+  {
+    "id": 332,
+    "citation": "Horatius, Epistulae I",
+    "text": "haec seges ingratos tulit et feret omnibus annis.",
+    "words": [
+      "haec",
+      "seges",
+      "ingratos",
+      "tulit",
+      "et",
+      "feret",
+      "omnibus",
+      "annis."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "Such a soil has borne, and will bear every year, a crop of ingrates.",
+    "mode": "classical"
+  },
+  {
+    "id": 333,
+    "citation": "Horatius, Epistulae I",
+    "text": "dignum praestabo me etiam pro laude merentis.",
+    "words": [
+      "dignum",
+      "praestabo",
+      "me",
+      "etiam",
+      "pro",
+      "laude",
+      "merentis."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "I will show myself worthy also in proportion to my benefactor's praise.",
+    "mode": "classical"
+  },
+  {
+    "id": 334,
+    "citation": "Horatius, Epistulae I",
+    "text": "Hac ego si compellor imagine, cuncta resigno;",
+    "words": [
+      "Hac",
+      "ego",
+      "si",
+      "compellor",
+      "imagine,",
+      "cuncta",
+      "resigno;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "If I am challenged by this parable, I resign everything;",
+    "mode": "classical"
+  },
+  {
+    "id": 335,
+    "citation": "Horatius, Epistulae I",
+    "text": "inspice si possum donata reponere laetus.",
+    "words": [
+      "inspice",
+      "si",
+      "possum",
+      "donata",
+      "reponere",
+      "laetus."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "See whether I can cheerfully restore what was given to me.",
+    "mode": "classical"
+  },
+  {
+    "id": 336,
+    "citation": "Horatius, Epistulae I",
+    "text": "Atride, magis apta tibi tua dona relinquam.",
+    "words": [
+      "Atride,",
+      "magis",
+      "apta",
+      "tibi",
+      "tua",
+      "dona",
+      "relinquam."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Son of Atreus, I will leave your gifts to you, as they suit you better.",
+    "mode": "classical"
+  },
+  {
+    "id": 337,
+    "citation": "Horatius, Epistulae I",
+    "text": "Metiri se quemque suo modulo ad pede uerum est.",
+    "words": [
+      "Metiri",
+      "se",
+      "quemque",
+      "suo",
+      "modulo",
+      "ad",
+      "pede",
+      "uerum",
+      "est."
+    ],
+    "word_count": 9,
+    "elision_count": 2,
+    "translation": "It is right that each man should measure himself by his own rule and foot.",
+    "mode": "classical"
+  },
+  {
+    "id": 338,
+    "citation": "Horatius, Epistulae I",
+    "text": "ut placeat iuueni, percontare, utque cohorti.",
+    "words": [
+      "ut",
+      "placeat",
+      "iuueni,",
+      "percontare,",
+      "utque",
+      "cohorti."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Inquire how he pleases the young prince, and how he suits the retinue.",
+    "mode": "classical"
+  },
+  {
+    "id": 339,
+    "citation": "Horatius, Epistulae I",
+    "text": "Est ubi diuellat somnos minus inuida cura?",
+    "words": [
+      "Est",
+      "ubi",
+      "diuellat",
+      "somnos",
+      "minus",
+      "inuida",
+      "cura?"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Is there any place where envious care less rends our sleep?",
+    "mode": "classical"
+  },
+  {
+    "id": 340,
+    "citation": "Horatius, Epistulae I",
+    "text": "pauper enim non est cui rerum suppetit usus.",
+    "words": [
+      "pauper",
+      "enim",
+      "non",
+      "est",
+      "cui",
+      "rerum",
+      "suppetit",
+      "usus."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "For he is not poor who has enough of things for his use.",
+    "mode": "classical"
+  },
+  {
+    "id": 341,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vilis amicorum est annona, bonis ubi quid dest.",
+    "words": [
+      "Vilis",
+      "amicorum",
+      "est",
+      "annona,",
+      "bonis",
+      "ubi",
+      "quid",
+      "dest."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "The price of friends is cheap when good men are in need of something.",
+    "mode": "classical"
+  },
+  {
+    "id": 342,
+    "citation": "Horatius, Epistulae I",
+    "text": "Viribus uteris per cliuos, flumina, lamas.",
+    "words": [
+      "Viribus",
+      "uteris",
+      "per",
+      "cliuos,",
+      "flumina,",
+      "lamas."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "You will exert your strength across hills, rivers, and bogs.",
+    "mode": "classical"
+  },
+  {
+    "id": 343,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vade, uale, caue ne titubes mandataque frangas.",
+    "words": [
+      "Vade,",
+      "uale,",
+      "caue",
+      "ne",
+      "titubes",
+      "mandataque",
+      "frangas."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Go, farewell; beware lest you stumble and break my commands.",
+    "mode": "classical"
+  },
+  {
+    "id": 344,
+    "citation": "Horatius, Epistulae I",
+    "text": "Rure ego uiuentem, tu dicis in urbe beatum;",
+    "words": [
+      "Rure",
+      "ego",
+      "uiuentem,",
+      "tu",
+      "dicis",
+      "in",
+      "urbe",
+      "beatum;"
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "I call him happy who lives in the country; you, him who lives in the city;",
+    "mode": "classical"
+  },
+  {
+    "id": 345,
+    "citation": "Horatius, Epistulae I",
+    "text": "in culpa est animus, qui se non effugit umquam.",
+    "words": [
+      "in",
+      "culpa",
+      "est",
+      "animus,",
+      "qui",
+      "se",
+      "non",
+      "effugit",
+      "umquam."
+    ],
+    "word_count": 9,
+    "elision_count": 1,
+    "translation": "The mind is at fault, which never escapes from itself.",
+    "mode": "classical"
+  },
+  {
+    "id": 346,
+    "citation": "Horatius, Epistulae I",
+    "text": "Nunc age, quid nostrum concentum diuidat, audi.",
+    "words": [
+      "Nunc",
+      "age,",
+      "quid",
+      "nostrum",
+      "concentum",
+      "diuidat,",
+      "audi."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Come now, listen to what divides our harmony.",
+    "mode": "classical"
+  },
+  {
+    "id": 347,
+    "citation": "Horatius, Epistulae I",
+    "text": "nec lusisse pudet, sed non incidere ludum.",
+    "words": [
+      "nec",
+      "lusisse",
+      "pudet,",
+      "sed",
+      "non",
+      "incidere",
+      "ludum."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "There is no shame in having played, but in not breaking off the play.",
+    "mode": "classical"
+  },
+  {
+    "id": 348,
+    "citation": "Horatius, Epistulae I",
+    "text": "rident uicini glaebas et saxa mouentem.",
+    "words": [
+      "rident",
+      "uicini",
+      "glaebas",
+      "et",
+      "saxa",
+      "mouentem."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "The neighbors laugh at me as I move clods and stones.",
+    "mode": "classical"
+  },
+  {
+    "id": 349,
+    "citation": "Horatius, Epistulae I",
+    "text": "Cum seruis urbana diaria rodere mauis;",
+    "words": [
+      "Cum",
+      "seruis",
+      "urbana",
+      "diaria",
+      "rodere",
+      "mauis;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "You prefer to gnaw on city rations along with the slaves;",
+    "mode": "classical"
+  },
+  {
+    "id": 350,
+    "citation": "Horatius, Epistulae I",
+    "text": "Optat ephippia bos piger, optat arare caballus;",
+    "words": [
+      "Optat",
+      "ephippia",
+      "bos",
+      "piger,",
+      "optat",
+      "arare",
+      "caballus;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "The lazy ox longs for the horse's trappings; the horse longs to plow;",
+    "mode": "classical"
+  },
+  {
+    "id": 351,
+    "citation": "Horatius, Epistulae I",
+    "text": "quam scit uterque, libens, censebo, exerceat artem.",
+    "words": [
+      "quam",
+      "scit",
+      "uterque,",
+      "libens,",
+      "censebo,",
+      "exerceat",
+      "artem."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "My advice will be that each should willingly practice the art he knows.",
+    "mode": "classical"
+  },
+  {
+    "id": 352,
+    "citation": "Horatius, Epistulae I",
+    "text": "rure meo possum quiduis perferre patique;",
+    "words": [
+      "rure",
+      "meo",
+      "possum",
+      "quiduis",
+      "perferre",
+      "patique;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "On my country estate I can endure and put up with anything;",
+    "mode": "classical"
+  },
+  {
+    "id": 353,
+    "citation": "Horatius, Epistulae I",
+    "text": "Tu recte uiuis, si curas esse quod audis.",
+    "words": [
+      "Tu",
+      "recte",
+      "uiuis,",
+      "si",
+      "curas",
+      "esse",
+      "quod",
+      "audis."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "You live rightly if you take care to be what you are called.",
+    "mode": "classical"
+  },
+  {
+    "id": 354,
+    "citation": "Horatius, Epistulae I",
+    "text": "Stultorum incurata pudor malus ulcera celat.",
+    "words": [
+      "Stultorum",
+      "incurata",
+      "pudor",
+      "malus",
+      "ulcera",
+      "celat."
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "It is the false shame of fools that hides unhealed ulcers.",
+    "mode": "classical"
+  },
+  {
+    "id": 355,
+    "citation": "Horatius, Epistulae I",
+    "text": "detulerit fasces indigno, detrahet idem.",
+    "words": [
+      "detulerit",
+      "fasces",
+      "indigno,",
+      "detrahet",
+      "idem."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "He who has conferred the fasces on the unworthy will likewise take them away.",
+    "mode": "classical"
+  },
+  {
+    "id": 356,
+    "citation": "Horatius, Epistulae I",
+    "text": "Oderunt peccare boni uirtutis amore;",
+    "words": [
+      "Oderunt",
+      "peccare",
+      "boni",
+      "uirtutis",
+      "amore;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "The good hate to sin from their love of virtue;",
+    "mode": "classical"
+  },
+  {
+    "id": 357,
+    "citation": "Horatius, Epistulae I",
+    "text": "tu nihil admittes in te formidine poenae;",
+    "words": [
+      "tu",
+      "nihil",
+      "admittes",
+      "in",
+      "te",
+      "formidine",
+      "poenae;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "You will commit no crime within yourself from fear of punishment;",
+    "mode": "classical"
+  },
+  {
+    "id": 358,
+    "citation": "Horatius, Epistulae I",
+    "text": "sit spes fallendi, miscebis sacra profanis.",
+    "words": [
+      "sit",
+      "spes",
+      "fallendi,",
+      "miscebis",
+      "sacra",
+      "profanis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Let there be hope of escaping notice, and you will mingle the sacred with the profane.",
+    "mode": "classical"
+  },
+  {
+    "id": 359,
+    "citation": "Horatius, Epistulae I",
+    "text": "Vendere cum possis captiuum, occidere noli;",
+    "words": [
+      "Vendere",
+      "cum",
+      "possis",
+      "captiuum,",
+      "occidere",
+      "noli;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "When you can sell a captive, do not kill him;",
+    "mode": "classical"
+  },
+  {
+    "id": 360,
+    "citation": "Horatius, Epistulae I",
+    "text": "Alter purpureum non expectabit amictum;",
+    "words": [
+      "Alter",
+      "purpureum",
+      "non",
+      "expectabit",
+      "amictum;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "The other will not wait for a purple cloak;",
+    "mode": "classical"
+  },
+  {
+    "id": 361,
+    "citation": "Horatius, Epistulae I",
+    "text": "principibus placuisse uiris non ultima laus est.",
+    "words": [
+      "principibus",
+      "placuisse",
+      "uiris",
+      "non",
+      "ultima",
+      "laus",
+      "est."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "To have pleased leading men is not the lowest praise.",
+    "mode": "classical"
+  },
+  {
+    "id": 362,
+    "citation": "Horatius, Epistulae I",
+    "text": "Sedit qui timuit ne non succederet; esto;",
+    "words": [
+      "Sedit",
+      "qui",
+      "timuit",
+      "ne",
+      "non",
+      "succederet;",
+      "esto;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "He who feared lest he should not succeed sat still; so be it;",
+    "mode": "classical"
+  },
+  {
+    "id": 364,
+    "citation": "Horatius, Epistulae I",
+    "text": "Credite, non ludo; crudeles, tollite claudum.",
+    "words": [
+      "Credite,",
+      "non",
+      "ludo;",
+      "crudeles,",
+      "tollite",
+      "claudum."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Believe me, I am not joking; cruel men, lift up the lame!",
+    "mode": "classical"
+  },
+  {
+    "id": 365,
+    "citation": "Horatius, Epistulae I",
+    "text": "Quaere peregrinum', uicinia rauca reclamat.",
+    "words": [
+      "Quaere",
+      "peregrinum',",
+      "uicinia",
+      "rauca",
+      "reclamat."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "'Go look for a stranger!' the hoarse neighborhood cries back.",
+    "mode": "classical"
+  },
+  {
+    "id": 366,
+    "citation": "Horatius, Epistulae I",
+    "text": "Virtus est medium uitiorum et utrimque reductum.",
+    "words": [
+      "Virtus",
+      "est",
+      "medium",
+      "uitiorum",
+      "et",
+      "utrimque",
+      "reductum."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Virtue is a mean between vices, removed from both extremes.",
+    "mode": "classical"
+  },
+  {
+    "id": 367,
+    "citation": "Horatius, Epistulae I",
+    "text": "Dulcia inexpertis cultura potentis amici;",
+    "words": [
+      "Dulcia",
+      "inexpertis",
+      "cultura",
+      "potentis",
+      "amici;"
+    ],
+    "word_count": 5,
+    "elision_count": 1,
+    "translation": "Sweet to the inexperienced is the courting of a powerful friend;",
+    "mode": "classical"
+  },
+  {
+    "id": 368,
+    "citation": "Horatius, Epistulae I",
+    "text": "quod superest aeui, siquid superesse uolunt di;",
+    "words": [
+      "quod",
+      "superest",
+      "aeui,",
+      "siquid",
+      "superesse",
+      "uolunt",
+      "di;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "May I have what remains of life, if the gods will that anything remain;",
+    "mode": "classical"
+  },
+  {
+    "id": 369,
+    "citation": "Horatius, Epistulae I",
+    "text": "det uitam, det opes; aequum mi animum ipse parabo.",
+    "words": [
+      "det",
+      "uitam,",
+      "det",
+      "opes;",
+      "aequum",
+      "mi",
+      "animum",
+      "ipse",
+      "parabo."
+    ],
+    "word_count": 9,
+    "elision_count": 2,
+    "translation": "Let Jove give life, let him give wealth; a tranquil mind I will provide for myself.",
+    "mode": "classical"
+  },
+  {
+    "id": 370,
+    "citation": "Vergilius, Georgica I",
+    "text": "accipiat cingens materna tempora myrto;",
+    "words": [
+      "accipiat",
+      "cingens",
+      "materna",
+      "tempora",
+      "myrto;"
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "May he receive them, binding his temples with his mother's myrtle;",
+    "mode": "classical"
+  },
+  {
+    "id": 371,
+    "citation": "Vergilius, Georgica I",
+    "text": "illius immensae ruperunt horrea messes.",
+    "words": [
+      "illius",
+      "immensae",
+      "ruperunt",
+      "horrea",
+      "messes."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "His boundless harvests have burst the granaries.",
+    "mode": "classical"
+  },
+  {
+    "id": 372,
+    "citation": "Vergilius, Georgica I",
+    "text": "tunc alnos primum fluuii sensere cauatas;",
+    "words": [
+      "tunc",
+      "alnos",
+      "primum",
+      "fluuii",
+      "sensere",
+      "cauatas;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Then first the rivers felt the hollowed alders;",
+    "mode": "classical"
+  },
+  {
+    "id": 373,
+    "citation": "Vergilius, Georgica I",
+    "text": "incipe et ad medias sementem extende pruinas.",
+    "words": [
+      "incipe",
+      "et",
+      "ad",
+      "medias",
+      "sementem",
+      "extende",
+      "pruinas."
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "Begin, and extend your sowing right up to the midwinter frosts.",
+    "mode": "classical"
+  },
+  {
+    "id": 374,
+    "citation": "Vergilius, Georgica I",
+    "text": "ter pater exstructos disiecit fulmine montis.",
+    "words": [
+      "ter",
+      "pater",
+      "exstructos",
+      "disiecit",
+      "fulmine",
+      "montis."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Three times the Father shattered the piled-up mountains with his thunderbolt.",
+    "mode": "classical"
+  },
+  {
+    "id": 375,
+    "citation": "Vergilius, Georgica I",
+    "text": "nudus ara, sere nudus. hiems ignaua colono:",
+    "words": [
+      "nudus",
+      "ara,",
+      "sere",
+      "nudus.",
+      "hiems",
+      "ignaua",
+      "colono:"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Plow lightly clad, sow lightly clad; winter is an idle time for the farmer.",
+    "mode": "classical"
+  },
+  {
+    "id": 376,
+    "citation": "Vergilius, Georgica I",
+    "text": "nunc nemora ingenti uento, nunc litora plangunt.",
+    "words": [
+      "nunc",
+      "nemora",
+      "ingenti",
+      "uento,",
+      "nunc",
+      "litora",
+      "plangunt."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Now the woods, now the shores wail with the mighty wind.",
+    "mode": "classical"
+  },
+  {
+    "id": 377,
+    "citation": "Vergilius, Georgica I",
+    "text": "tam multa in tectis crepitans salit horrida grando.",
+    "words": [
+      "tam",
+      "multa",
+      "in",
+      "tectis",
+      "crepitans",
+      "salit",
+      "horrida",
+      "grando."
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "So thick the bristling hail leaps rattling on the roofs.",
+    "mode": "classical"
+  },
+  {
+    "id": 378,
+    "citation": "Vergilius, Georgica II",
+    "text": "Hactenus aruorum cultus et sidera caeli;",
+    "words": [
+      "Hactenus",
+      "aruorum",
+      "cultus",
+      "et",
+      "sidera",
+      "caeli;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Thus far the tillage of the fields and the stars of heaven;",
+    "mode": "classical"
+  },
+  {
+    "id": 379,
+    "citation": "Vergilius, Georgica II",
+    "text": "Principio arboribus uaria est natura creandis.",
+    "words": [
+      "Principio",
+      "arboribus",
+      "uaria",
+      "est",
+      "natura",
+      "creandis."
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "First of all, nature is varied in the ways of producing trees.",
+    "mode": "classical"
+  },
+  {
+    "id": 380,
+    "citation": "Vergilius, Georgica II",
+    "text": "sunt alii, quos ipse uia sibi repperit usus:",
+    "words": [
+      "sunt",
+      "alii,",
+      "quos",
+      "ipse",
+      "uia",
+      "sibi",
+      "repperit",
+      "usus:"
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "There are others that experience itself has found out along its course:",
+    "mode": "classical"
+  },
+  {
+    "id": 381,
+    "citation": "Vergilius, Georgica II",
+    "text": "Nec modus inserere atque oculos imponere simplex.",
+    "words": [
+      "Nec",
+      "modus",
+      "inserere",
+      "atque",
+      "oculos",
+      "imponere",
+      "simplex."
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "Nor is the manner of grafting and budding one and the same.",
+    "mode": "classical"
+  },
+  {
+    "id": 382,
+    "citation": "Vergilius, Georgica II",
+    "text": "Nec uero terrae ferre omnes omnia possunt.",
+    "words": [
+      "Nec",
+      "uero",
+      "terrae",
+      "ferre",
+      "omnes",
+      "omnia",
+      "possunt."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Nor indeed can all soils bear all things.",
+    "mode": "classical"
+  },
+  {
+    "id": 383,
+    "citation": "Vergilius, Georgica II",
+    "text": "hic uer adsiduum atque alienis mensibus aestas:",
+    "words": [
+      "hic",
+      "uer",
+      "adsiduum",
+      "atque",
+      "alienis",
+      "mensibus",
+      "aestas:"
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "Here spring is perpetual, and summer shines in months not her own:",
+    "mode": "classical"
+  },
+  {
+    "id": 384,
+    "citation": "Vergilius, Georgica II",
+    "text": "bis grauidae pecudes, bis pomis utilis arbos.",
+    "words": [
+      "bis",
+      "grauidae",
+      "pecudes,",
+      "bis",
+      "pomis",
+      "utilis",
+      "arbos."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Twice a year the cattle teem, twice the tree serves with fruit.",
+    "mode": "classical"
+  },
+  {
+    "id": 385,
+    "citation": "Vergilius, Georgica II",
+    "text": "an mare quod supra memorem, quodque adluit infra?",
+    "words": [
+      "an",
+      "mare",
+      "quod",
+      "supra",
+      "memorem,",
+      "quodque",
+      "adluit",
+      "infra?"
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Or shall I tell of the sea that washes it above, and that which washes it below?",
+    "mode": "classical"
+  },
+  {
+    "id": 386,
+    "citation": "Vergilius, Georgica II",
+    "text": "Nunc quo quamque modo possis cognoscere dicam.",
+    "words": [
+      "Nunc",
+      "quo",
+      "quamque",
+      "modo",
+      "possis",
+      "cognoscere",
+      "dicam."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Now I will tell how you may recognize the nature of each soil.",
+    "mode": "classical"
+  },
+  {
+    "id": 387,
+    "citation": "Vergilius, Georgica II",
+    "text": "Forsitan et scrobibus quae sint fastigia quaeras.",
+    "words": [
+      "Forsitan",
+      "et",
+      "scrobibus",
+      "quae",
+      "sint",
+      "fastigia",
+      "quaeras."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Perhaps too you may ask what depth is best for the trenches.",
+    "mode": "classical"
+  },
+  {
+    "id": 388,
+    "citation": "Vergilius, Georgica II",
+    "text": "ausim uel tenui uitem committere sulco;",
+    "words": [
+      "ausim",
+      "uel",
+      "tenui",
+      "uitem",
+      "committere",
+      "sulco;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "I would dare to entrust the vine even to a shallow furrow;",
+    "mode": "classical"
+  },
+  {
+    "id": 389,
+    "citation": "Vergilius, Georgica II",
+    "text": "infelix superat foliis oleaster amaris.",
+    "words": [
+      "infelix",
+      "superat",
+      "foliis",
+      "oleaster",
+      "amaris."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "Only the barren wild olive survives with its bitter leaves.",
+    "mode": "classical"
+  },
+  {
+    "id": 390,
+    "citation": "Vergilius, Georgica II",
+    "text": "et dubitant homines serere atque impendere curam?",
+    "words": [
+      "et",
+      "dubitant",
+      "homines",
+      "serere",
+      "atque",
+      "impendere",
+      "curam?"
+    ],
+    "word_count": 7,
+    "elision_count": 2,
+    "translation": "And do men still hesitate to plant and bestow their care?",
+    "mode": "classical"
+  },
+  {
+    "id": 391,
+    "citation": "Vergilius, Georgica II",
+    "text": "condit opes alius defossoque incubat auro;",
+    "words": [
+      "condit",
+      "opes",
+      "alius",
+      "defossoque",
+      "incubat",
+      "auro;"
+    ],
+    "word_count": 6,
+    "elision_count": 1,
+    "translation": "Another hoards up wealth and broods over buried gold;",
+    "mode": "classical"
+  },
+  {
+    "id": 392,
+    "citation": "Vergilius, Georgica II",
+    "text": "agricola incuruo terram dimouit aratro:",
+    "words": [
+      "agricola",
+      "incuruo",
+      "terram",
+      "dimouit",
+      "aratro:"
+    ],
+    "word_count": 5,
+    "elision_count": 1,
+    "translation": "The farmer has cleaved the earth with his curved plow:",
+    "mode": "classical"
+  },
+  {
+    "id": 393,
+    "citation": "Vergilius, Georgica III",
+    "text": "cetera nec feturae habilis nec fortis aratris.",
+    "words": [
+      "cetera",
+      "nec",
+      "feturae",
+      "habilis",
+      "nec",
+      "fortis",
+      "aratris."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "At other times she is neither fit for breeding nor strong for the plow.",
+    "mode": "classical"
+  },
+  {
+    "id": 394,
+    "citation": "Vergilius, Georgica III",
+    "text": "semper erunt quarum mutari corpora malis:",
+    "words": [
+      "semper",
+      "erunt",
+      "quarum",
+      "mutari",
+      "corpora",
+      "malis:"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "There will always be some cattle whose stock you would wish to improve:",
+    "mode": "classical"
+  },
+  {
+    "id": 395,
+    "citation": "Vergilius, Georgica III",
+    "text": "Nec non et pecori est idem dilectus equino:",
+    "words": [
+      "Nec",
+      "non",
+      "et",
+      "pecori",
+      "est",
+      "idem",
+      "dilectus",
+      "equino:"
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Moreover, the horse's herd requires the very same care in selection:",
+    "mode": "classical"
+  },
+  {
+    "id": 396,
+    "citation": "Vergilius, Georgica III",
+    "text": "densa iuba, et dextro iactata recumbit in armo;",
+    "words": [
+      "densa",
+      "iuba,",
+      "et",
+      "dextro",
+      "iactata",
+      "recumbit",
+      "in",
+      "armo;"
+    ],
+    "word_count": 8,
+    "elision_count": 1,
+    "translation": "Thick is his mane, and tossed, it rests upon his right shoulder;",
+    "mode": "classical"
+  },
+  {
+    "id": 397,
+    "citation": "Vergilius, Georgica III",
+    "text": "deficit, abde domo, nec turpi ignosce senectae.",
+    "words": [
+      "deficit,",
+      "abde",
+      "domo,",
+      "nec",
+      "turpi",
+      "ignosce",
+      "senectae."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "When he fails, keep him at home, and spare his blameless old age.",
+    "mode": "classical"
+  },
+  {
+    "id": 398,
+    "citation": "Vergilius, Georgica III",
+    "text": "tantus amor laudum, tantae est uictoria curae.",
+    "words": [
+      "tantus",
+      "amor",
+      "laudum,",
+      "tantae",
+      "est",
+      "uictoria",
+      "curae."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "So great is their love of praise, so dear to them is victory.",
+    "mode": "classical"
+  },
+  {
+    "id": 399,
+    "citation": "Vergilius, Georgica III",
+    "text": "Post partum cura in uitulos traducitur omnis;",
+    "words": [
+      "Post",
+      "partum",
+      "cura",
+      "in",
+      "uitulos",
+      "traducitur",
+      "omnis;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "After birth, all care is transferred to the calves;",
+    "mode": "classical"
+  },
+  {
+    "id": 400,
+    "citation": "Vergilius, Georgica III",
+    "text": "cetera pascuntur uiridis armenta per herbas:",
+    "words": [
+      "cetera",
+      "pascuntur",
+      "uiridis",
+      "armenta",
+      "per",
+      "herbas:"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "The rest of the herds graze at large through the green pastures:",
+    "mode": "classical"
+  },
+  {
+    "id": 401,
+    "citation": "Vergilius, Georgica III",
+    "text": "ille uolat simul arua fuga simul aequora uerrens.",
+    "words": [
+      "ille",
+      "uolat",
+      "simul",
+      "arua",
+      "fuga",
+      "simul",
+      "aequora",
+      "uerrens."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "He flies, sweeping simultaneously over the fields and the sea in his flight.",
+    "mode": "classical"
+  },
+  {
+    "id": 402,
+    "citation": "Vergilius, Georgica III",
+    "text": "scilicet ante omnis furor est insignis equarum;",
+    "words": [
+      "scilicet",
+      "ante",
+      "omnis",
+      "furor",
+      "est",
+      "insignis",
+      "equarum;"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Assuredly, above all others, the frenzy of mares is remarkable;",
+    "mode": "classical"
+  },
+  {
+    "id": 403,
+    "citation": "Vergilius, Georgica III",
+    "text": "hic labor, hinc laudem fortes sperate coloni.",
+    "words": [
+      "hic",
+      "labor,",
+      "hinc",
+      "laudem",
+      "fortes",
+      "sperate",
+      "coloni."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Here lies the labor; hence, brave farmers, hope for praise.",
+    "mode": "classical"
+  },
+  {
+    "id": 404,
+    "citation": "Vergilius, Georgica III",
+    "text": "densior hinc suboles, hinc largi copia lactis;",
+    "words": [
+      "densior",
+      "hinc",
+      "suboles,",
+      "hinc",
+      "largi",
+      "copia",
+      "lactis;"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Hence comes a thicker offspring, hence a generous supply of milk;",
+    "mode": "classical"
+  },
+  {
+    "id": 405,
+    "citation": "Vergilius, Georgica III",
+    "text": "interea toto non setius aere ningit:",
+    "words": [
+      "interea",
+      "toto",
+      "non",
+      "setius",
+      "aere",
+      "ningit:"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Meanwhile, no less relentlessly, it snows through all the sky:",
+    "mode": "classical"
+  },
+  {
+    "id": 406,
+    "citation": "Vergilius, Georgica III",
+    "text": "continuoque greges uillis lege mollibus albos.",
+    "words": [
+      "continuoque",
+      "greges",
+      "uillis",
+      "lege",
+      "mollibus",
+      "albos."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "From the outset, choose flocks with soft and snowy fleeces.",
+    "mode": "classical"
+  },
+  {
+    "id": 407,
+    "citation": "Vergilius, Georgica III",
+    "text": "Morborum quoque te causas et signa docebo.",
+    "words": [
+      "Morborum",
+      "quoque",
+      "te",
+      "causas",
+      "et",
+      "signa",
+      "docebo."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "I will also teach you the causes and signs of diseases.",
+    "mode": "classical"
+  },
+  {
+    "id": 408,
+    "citation": "Vergilius, Georgica III",
+    "text": "haec ante exitium primis dant signa diebus:",
+    "words": [
+      "haec",
+      "ante",
+      "exitium",
+      "primis",
+      "dant",
+      "signa",
+      "diebus:"
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "In the first days before death, they give these signs:",
+    "mode": "classical"
+  },
+  {
+    "id": 409,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Alter erit maculis auro squalentibus ardens;",
+    "words": [
+      "Alter",
+      "erit",
+      "maculis",
+      "auro",
+      "squalentibus",
+      "ardens;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "The one will be fiery, gleaming with scales of gold;",
+    "mode": "classical"
+  },
+  {
+    "id": 410,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Ut binae regum facies, ita corpora plebis.",
+    "words": [
+      "Ut",
+      "binae",
+      "regum",
+      "facies,",
+      "ita",
+      "corpora",
+      "plebis."
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Just as there are two types of kings, so too are the bodies of the common bees.",
+    "mode": "classical"
+  },
+  {
+    "id": 411,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Fervet opus, redolentque thymo fragrantia mella.",
+    "words": [
+      "Fervet",
+      "opus,",
+      "redolentque",
+      "thymo",
+      "fragrantia",
+      "mella."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "The work glows, and the fragrant honey smells of thyme.",
+    "mode": "classical"
+  },
+  {
+    "id": 412,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Omnibus una quies operum, labor omnibus unus:",
+    "words": [
+      "Omnibus",
+      "una",
+      "quies",
+      "operum,",
+      "labor",
+      "omnibus",
+      "unus:"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "For all there is one rest from toil, for all one time of labor:",
+    "mode": "classical"
+  },
+  {
+    "id": 413,
+    "citation": "Vergilius, Georgica IV",
+    "text": "fit sonitus, mussantque oras et limina circum.",
+    "words": [
+      "fit",
+      "sonitus,",
+      "mussantque",
+      "oras",
+      "et",
+      "limina",
+      "circum."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "A buzzing arises, and they hum around the borders and thresholds.",
+    "mode": "classical"
+  },
+  {
+    "id": 414,
+    "citation": "Vergilius, Georgica IV",
+    "text": "tantus amor florum et generandi gloria mellis.",
+    "words": [
+      "tantus",
+      "amor",
+      "florum",
+      "et",
+      "generandi",
+      "gloria",
+      "mellis."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "So great is their love of flowers and their glory in making honey.",
+    "mode": "classical"
+  },
+  {
+    "id": 415,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Unde nova ingressus hominum experientia cepit?",
+    "words": [
+      "Unde",
+      "nova",
+      "ingressus",
+      "hominum",
+      "experientia",
+      "cepit?"
+    ],
+    "word_count": 6,
+    "elision_count": 2,
+    "translation": "Whence did this new experience of men take its beginning?",
+    "mode": "classical"
+  },
+  {
+    "id": 416,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Omine quo firmans animum sic incipit ipsa:",
+    "words": [
+      "Omine",
+      "quo",
+      "firmans",
+      "animum",
+      "sic",
+      "incipit",
+      "ipsa:"
+    ],
+    "word_count": 7,
+    "elision_count": 0,
+    "translation": "Cheering her heart with this omen, she herself thus begins:",
+    "mode": "classical"
+  },
+  {
+    "id": 417,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Sternunt se somno diversae in litore phocae.",
+    "words": [
+      "Sternunt",
+      "se",
+      "somno",
+      "diversae",
+      "in",
+      "litore",
+      "phocae."
+    ],
+    "word_count": 7,
+    "elision_count": 1,
+    "translation": "Seals scatter and lay themselves down to sleep along the shore.",
+    "mode": "classical"
+  },
+  {
+    "id": 418,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Non te nullius exercent numinis irae;",
+    "words": [
+      "Non",
+      "te",
+      "nullius",
+      "exercent",
+      "numinis",
+      "irae;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "It is the wrath of no slight deity that pursues you;",
+    "mode": "classical"
+  },
+  {
+    "id": 419,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Iamque pedem referens casus evaserat omnes;",
+    "words": [
+      "Iamque",
+      "pedem",
+      "referens",
+      "casus",
+      "evaserat",
+      "omnes;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "And now, retracing his steps, he had escaped every peril;",
+    "mode": "classical"
+  },
+  {
+    "id": 420,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Eurydicen toto referebant flumine ripae\".",
+    "words": [
+      "Eurydicen",
+      "toto",
+      "referebant",
+      "flumine",
+      "ripae\"."
+    ],
+    "word_count": 5,
+    "elision_count": 0,
+    "translation": "'Eurydice!' the banks echoed back along the whole stream.",
+    "mode": "classical"
+  },
+  {
+    "id": 421,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Nate, licet tristes animo deponere curas.",
+    "words": [
+      "Nate,",
+      "licet",
+      "tristes",
+      "animo",
+      "deponere",
+      "curas."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "My son, you may lay aside the sad cares from your heart.",
+    "mode": "classical"
+  },
+  {
+    "id": 422,
+    "citation": "Vergilius, Georgica IV",
+    "text": "namque dabunt veniam votis irasque remittent.",
+    "words": [
+      "namque",
+      "dabunt",
+      "veniam",
+      "votis",
+      "irasque",
+      "remittent."
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "For they will grant pardon to your prayers and lay aside their wrath.",
+    "mode": "classical"
+  },
+  {
+    "id": 423,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Sed modus orandi qui sit, prius ordine dicam.",
+    "words": [
+      "Sed",
+      "modus",
+      "orandi",
+      "qui",
+      "sit,",
+      "prius",
+      "ordine",
+      "dicam."
+    ],
+    "word_count": 8,
+    "elision_count": 0,
+    "translation": "But first I will tell you in order what the manner of supplication is.",
+    "mode": "classical"
+  },
+  {
+    "id": 424,
+    "citation": "Vergilius, Georgica IV",
+    "text": "Haud mora; continuo matris praecepta facessit;",
+    "words": [
+      "Haud",
+      "mora;",
+      "continuo",
+      "matris",
+      "praecepta",
+      "facessit;"
+    ],
+    "word_count": 6,
+    "elision_count": 0,
+    "translation": "Without delay, he straightway carries out his mother's bidding;",
+    "mode": "classical"
+  }
+]

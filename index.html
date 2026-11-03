@@ -10,7 +10,7 @@
   <title>HEXAMERTLE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Noto+Serif+JP:wght@500;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Noto+Sans+JP:wght@500;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #F8F5EE;
@@ -20,15 +20,15 @@
       --text-muted: #7A7265;
       --green: #2E6B4F;
       --green-light: #E7F3EC;
-      --yellow: #C28B23;
+      --yellow: #565553;
       --yellow-light: #FBF4E4;
       --gray: #9E988E;
       --gray-light: #ECE8E0;
       --primary: #8C2D19;
       --accent: #B83A20;
       --radius: 8px;
-      --font-serif: 'EB Garamond', 'Noto Serif JP', Georgia, serif;
-      --font-display: 'Cinzel', serif;
+      --font-serif: 'EB Garamond', Georgia, serif;
+      --font-display: 'Cinzel', Georgia, serif;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -95,6 +95,10 @@
       font-weight: 700;
     }
 
+    .lang-btn {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
     .meta-tag {
       font-size: 0.8rem;
       background: var(--card-border);
@@ -136,6 +140,7 @@
       font-family: var(--font-serif);
       font-size: 1.15rem;
       font-weight: 500;
+      text-transform: none;
       background: rgba(255,255,255,0.4);
       user-select: none;
       transition: transform 0.15s, background-color 0.2s;
@@ -200,6 +205,7 @@
       font-family: var(--font-serif);
       font-size: 1.15rem;
       font-weight: 500;
+      text-transform: none;
       cursor: pointer;
       user-select: none;
       transition: all 0.15s;
@@ -282,12 +288,12 @@
       text-align: center;
       position: relative;
       box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-font-family: var(--font-serif);
-
+      font-family: Noto Sans JP;
     }
-.modal-content h2 {
-  font-family: var(--font-display);
-}
+
+    .modal-content h2 {
+      font-family: var(--font-display);
+    }
 
     .share-btn {
       background: var(--green);
@@ -330,8 +336,8 @@ font-family: var(--font-serif);
     <h1>HEXAMERTLE</h1>
     <div class="controls">
       <div class="diff-toggle">
-        <button id="btnEasy" class="diff-btn active" onclick="setDifficulty('easy')">Easy</button>
-        <button id="btnHard" class="diff-btn" onclick="setDifficulty('hard')">Hard</button>
+        <button id="btnClassical" class="diff-btn active" onclick="setMode('classical')">Classical</button>
+        <button id="btnMedieval" class="diff-btn" onclick="setMode('medieval')">Medieval</button>
       </div>
       <button class="diff-btn" style="border: 1px solid var(--card-border);" onclick="pickNewRandomVerse()">Random</button>
       <span id="verseIdTag" class="meta-tag">#Daily</span>
@@ -360,7 +366,7 @@ font-family: var(--font-serif);
 
   <div id="resultModal" class="modal-overlay">
     <div class="modal-content">
-      <h2 id="modalStatus" style="font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 8px;">VICTORIA!</h2>
+      <h2 id="modalStatus" style="font-size: 1.6rem; margin-bottom: 8px;">VICTORIA!</h2>
       <div id="modalVerse" style="font-size: 1.15rem; font-style: italic; margin: 12px 0 6px 0; color: var(--text);"></div>
       <div id="modalCitation" style="font-size: 0.85rem; color: var(--primary); font-weight: 600; letter-spacing: 0.5px; margin-bottom: 12px;"></div>
       <blockquote id="modalTranslation" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); background: var(--surface); padding: 12px 16px; margin: 14px auto; border-radius: 8px; font-style: italic; text-align: center; border: 1px solid var(--card-border); max-width: 90%;"></blockquote>    
@@ -378,41 +384,41 @@ font-family: var(--font-serif);
       
       <div style="display: flex; justify-content: flex-end; margin-bottom: 4px;">
         <div class="diff-toggle">
-          <button id="langJaBtn" class="diff-btn active" onclick="setModalLang('ja')">日本語</button>
-          <button id="langEnBtn" class="diff-btn" onclick="setModalLang('en')">English</button>
+          <button id="langJaBtn" class="diff-btn lang-btn active" onclick="setModalLang('ja')">日本語</button>
+          <button id="langEnBtn" class="diff-btn lang-btn" onclick="setModalLang('en')"> English</button>
         </div>
       </div>
 
-      <h2 id="mTitle" style="font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
+      <h2 id="mTitle" style="font-size: 1.35rem; margin-bottom: 12px; text-align: center; color: var(--primary);">
         遊び方と出典
       </h2>
       
       <div style="font-size: 0.85rem; line-height: 1.5; color: var(--text); margin-bottom: 16px; border-bottom: 1px solid var(--card-border); padding-bottom: 14px;">
         <p id="mRuleDesc" style="margin-bottom: 8px;">
-         バラバラになったラテン語の単語を正しい順に並べ、ヘクサメトロスの詩行を完成させるパズルです。下に並んでいるラテン語の単語をクリックすると左から順番に並んでいきます。並べ終わったらVerifica!で回答できます。上記のRandomボタンを押すと、ランダムな詩行を選ぶことができます。
+          バラバラになったラテン語の単語を正しい順に並べ、<strong>ヘクサメトロス</strong>の詩行を完成させるパズルです。最大6回まで挑戦できます。
         </p>
         <div style="display: flex; flex-direction: column; gap: 6px; background: var(--bg); padding: 10px; border-radius: 6px; font-size: 0.8rem;">
-          <div id="mCol1">🟩 <strong>緑：</strong> 単語も位置も正しい</div>
-          <div id="mCol2">🟨 <strong>黄：</strong> 詩行に含まれるが位置違い</div>
+          <div id="mCol1">🟩 <strong>緑：</strong> 位置が正しい</div>
+          <div id="mCol2">⬛ <strong>灰：</strong> 位置が違う</div>
         </div>
       </div>
 
       <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.82rem; line-height: 1.5;">
-        <div id="mSourcesTitle" style="font-weight: bold; color: var(--text); margin-bottom: -4px;">元のラテン語の文は、下の文献から引いています。</div>
+        <div id="mSourcesTitle" style="font-weight: bold; color: var(--text); margin-bottom: -4px;">底本・文献:</div>
         
         <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 8px 12px;">
-          <div style="font-weight: bold; color: var(--text);">Disticha Catonis</div>
+          <div style="font-weight: bold; color: var(--text);">Classical (Horatius, Vergilius, etc.)</div>
           <div style="color: var(--text-muted); margin-top: 2px;">
-            • <strong>Latin:</strong> <em>Disticha Catonis</em> (<a href="https://www.thelatinlibrary.com/catoni.html" target="_blank" style="color: var(--primary);">The Latin Library</a>)<br>
-            • <span id="mCatonTrans"><strong>English:</strong> HalCeKeyがWayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.を参考に</span>
+            • <strong>ラテン語原文:</strong> <em>Epistulae</em>, <em>Georgica</em> (<a href="https://www.thelatinlibrary.com/" target="_blank" style="color: var(--primary);">The Latin Library</a>)<br>
+            • <span id="mSalernTrans"><strong>英訳:</strong> HalCeKeyがHenry Rushton Fairclough <em>Satires, Epistles and Ars poetica</em>. 1926.を参考に</span></span>
           </div>
         </div>
 
         <div style="background: var(--surface); border: 1px solid var(--card-border); border-radius: 6px; padding: 8px 12px;">
-          <div style="font-weight: bold; color: var(--text);">Regimen Sanitatis Salernitanum</div>
+          <div style="font-weight: bold; color: var(--text);">Medieval &amp; Late Antique</div>
           <div style="color: var(--text-muted); margin-top: 2px;">
-            • <strong>Latin:</strong> <em>Regimen Sanitatis Salerni</em> (<a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank" style="color: var(--primary);">Accademia Jaufré Rudel</a>)<br>
-            • <span id="mSalernTrans"><strong>English:</strong> HalCeKeyがJohn Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.を参考に</span>
+            • <strong>ラテン語原文:</strong> <em>Regimen Sanitatis Salerni</em> (<a href="https://web.archive.org/web/20181119141245/http://www.accademiajr.it/bibvirt/regimen.html" target="_blank" style="color: var(--primary);">Accademia Jaufré Rudel</a>)<br>
+            • <span id="mSalernTrans"><strong>英訳:</strong> HalCeKeyがJohn Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.を参考に</span></span>
           </div>
         </div>
       </div>
@@ -425,7 +431,25 @@ font-family: var(--font-serif);
 
   <script>
     const PRESETS = {
-      easy: [
+      classical: [
+        { "id": 301,
+          "citation": "Horatius, Epistulae I",
+          "text": "Dimidium facti, qui coepit, habet: sapere aude,",
+          "words": ["Dimidium", "facti,", "qui", "coepit,", "habet:", "sapere", "aude,"],
+          "word_count": 7,
+          "elision_count": 1,
+          "translation": "He who has begun is half done: dare to be wise.",
+          "mode": "classical" },
+        { "id": 302,
+          "citation": "Horatius, Epistulae I",
+          "text": "Sperne voluptates; nocet empta dolore voluptas.",
+          "words": ["Sperne", "voluptates;", "nocet", "empta", "dolore", "voluptas."],
+          "word_count": 6,
+          "elision_count": 0,
+          "translation": "Despise pleasures; pleasure bought with pain is harmful.",
+          "mode": "classical" }
+      ],
+      medieval: [
         { "id": 1,
           "citation": "Disticha Catonis",
           "text": "Plus vigila semper nec somno deditus esto;",
@@ -433,18 +457,7 @@ font-family: var(--font-serif);
           "word_count": 7,
           "elision_count": 0,
           "translation": "Watch more ever, and be not given to sleep.",
-          "difficulty": "easy" },
-        { "id": 160,
-          "citation": "Regimen Sanitatis Salernitanum",
-          "text": "Languenti stomacho caseus addit opem;",
-          "words": ["languenti", "stomacho", "caseus", "addit", "opem"],
-          "word_count": 5,
-          "syllable_estimate": 13,
-          "elision_count": 0,
-          "translation": "Cheese brings help to a weak stomach.",
-          "difficulty": "easy" }
-      ],
-      hard: [
+          "mode": "medieval" },
         { "id": 17,
           "citation": "Disticha Catonis",
           "text": "In morte alterius spem tu tibi ponere noli.",
@@ -452,12 +465,12 @@ font-family: var(--font-serif);
           "word_count": 8,
           "elision_count": 1,
           "translation": "Do not place your hope in the death of another.",
-          "difficulty": "hard" }
+          "mode": "medieval" }
       ]
     };
 
-    let datasets = { easy: [], hard: [] };
-    let currentDifficulty = 'easy';
+    let datasets = { classical: [], medieval: [] };
+    let currentMode = 'classical';
     let currentVerse = null;
     let targetWords = [];
     let currentAssembly = [];
@@ -472,8 +485,8 @@ font-family: var(--font-serif);
         footerBtn: "遊び方 & 出典",
         title: "遊び方 & 出典",
         ruleDesc: "バラバラになったラテン語の単語を正しい順に並べ、ヘクサメトロスの詩行を完成させるパズルです。下に並んでいるラテン語の単語をクリックすると左から順番に並んでいきます。並べ終わったらVerifica!で回答できます。",
-        col1: "🟩 <strong>緑：</strong> 単語も位置も正しい",
-        col2: "🟨 <strong>黄：</strong> 位置が違う",
+        col1: "🟩 <strong>緑：</strong> 位置が正しい",
+        col2: "⬛ <strong>灰：</strong> 位置が違う",
         sourcesTitle: "元のラテン語の文は、下の文献から引いています。",
         catonTrans: "<strong>英訳等:</strong> HalCeKeyがWayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.を参考に",
         salernTrans: "<strong>英訳等:</strong> HalCeKeyがJohn Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.を参考に",
@@ -484,10 +497,9 @@ font-family: var(--font-serif);
         title: "HOW TO PLAY & SOURCES",
         ruleDesc: "Reconstruct Latin dactylic hexameters by assembling shuffled words into a single line (max 6 attempts). The origin of the verses is from actual writing listed below. Click the words below to assemble them in order. When you have a full line, click Verifica! to submit your guess. Click the Random button to load a random verse.",
         col1: "🟩 <strong>Green:</strong> Correct word and position",
-        col2: "🟨 <strong>Yellow:</strong> Wrong position",
-        sourcesTitle: "Sources:",
-        catonTrans: "<strong>English:</strong> HalCeKey with the help of Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.",
-        salernTrans: "<strong>English:</strong> HalCeKey with the help of John Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.",
+        col2: "⬛ <strong>Gray:</strong> Wrong position",
+        sourcesTitle: "Fontes et Editiones (Sources):",
+        catonTrans: "<strong>English:</strong> HalCeKey with the help of Wayland Johnson Chase, <em>The Distichs of Cato: A Famous Medieval Schoolbook</em>. 1922.",salernTrans: "<strong>English:</strong> HalCeKey with the help of John Ordronaux, <em>Code of Health of the School of Salernum</em>. 1870.",
         closeBtn: "Close"
       }
     };
@@ -503,6 +515,7 @@ font-family: var(--font-serif);
       document.getElementById('mRuleDesc').innerHTML = t.ruleDesc;
       document.getElementById('mCol1').innerHTML = t.col1;
       document.getElementById('mCol2').innerHTML = t.col2;
+      document.getElementById('mCol3').innerHTML = t.col3;
       document.getElementById('mSourcesTitle').textContent = t.sourcesTitle;
       document.getElementById('mCatonTrans').innerHTML = t.catonTrans;
       document.getElementById('mSalernTrans').innerHTML = t.salernTrans;
@@ -515,33 +528,48 @@ font-family: var(--font-serif);
 
     async function initData() {
       try {
-        const [resEasy, resHard] = await Promise.all([
-          fetch('caton_easy.json'),
-          fetch('caton_hard.json')
+        const [resClassical, resMedieval] = await Promise.all([
+          fetch('classical.json'),
+          fetch('medieval.json')
         ]);
-        if (resEasy.ok && resHard.ok) {
-          datasets.easy = await resEasy.json();
-          datasets.hard = await resHard.json();
+        if (resClassical.ok && resMedieval.ok) {
+          datasets.classical = await resClassical.json();
+          datasets.medieval = await resMedieval.json();
         } else {
           throw new Error("HTTP error loading JSON");
         }
       } catch (e) {
-        console.warn("Local JSON fetch failed (CORS/Missing). Using embedded presets.", e);
-        datasets = PRESETS;
+        console.warn("Local JSON fetch failed. Trying legacy caton_easy/hard or presets.", e);
+        try {
+          const [resEasy, resHard] = await Promise.all([
+            fetch('caton_easy.json'),
+            fetch('caton_hard.json')
+          ]);
+          if (resEasy.ok && resHard.ok) {
+            const easyData = await resEasy.json();
+            const hardData = await resHard.json();
+            datasets.medieval = easyData.concat(hardData);
+            datasets.classical = PRESETS.classical;
+          } else {
+            throw new Error("Legacy JSON not found");
+          }
+        } catch (err) {
+          datasets = PRESETS;
+        }
       }
       loadDailyPuzzle();
     }
 
-    function setDifficulty(diff) {
-      if (currentDifficulty === diff) return;
-      currentDifficulty = diff;
-      document.getElementById('btnEasy').classList.toggle('active', diff === 'easy');
-      document.getElementById('btnHard').classList.toggle('active', diff === 'hard');
+    function setMode(mode) {
+      if (currentMode === mode) return;
+      currentMode = mode;
+      document.getElementById('btnClassical').classList.toggle('active', mode === 'classical');
+      document.getElementById('btnMedieval').classList.toggle('active', mode === 'medieval');
       loadDailyPuzzle();
     }
 
     function loadDailyPuzzle() {
-      const pool = datasets[currentDifficulty];
+      const pool = datasets[currentMode];
       if (!pool || pool.length === 0) return;
 
       const today = new Date();
@@ -551,7 +579,7 @@ font-family: var(--font-serif);
     }
 
     function pickNewRandomVerse() {
-      const pool = datasets[currentDifficulty];
+      const pool = datasets[currentMode];
       if (!pool || pool.length === 0) return;
       const randIndex = Math.floor(Math.random() * pool.length);
       setupPuzzle(pool[randIndex], `Random #${pool[randIndex].id}`);
@@ -751,9 +779,11 @@ font-family: var(--font-serif);
       }
 
       if (metaEl) {
+        const elisions = (currentVerse.elision_count !== undefined) ? currentVerse.elision_count : 0;
         metaEl.innerHTML = `
-          Difficulty: <strong>${currentDifficulty.toUpperCase()}</strong> | 
+          Mode: <strong>${currentMode.toUpperCase()}</strong> | 
           Words: ${currentVerse.word_count || targetWords.length} | 
+          Elisions: <strong>${elisions}</strong> | 
           Attempts: ${attempts.length}/${MAX_ATTEMPTS}
         `;
       }
@@ -767,15 +797,16 @@ font-family: var(--font-serif);
     }
 
     function copyShareText() {
-      let text = `Hexamertle ${document.getElementById('verseIdTag').textContent} (${currentDifficulty.toUpperCase()}) ${attempts.length}/${MAX_ATTEMPTS}\n\n`;
+      let text = `Hexamertle ${document.getElementById('verseIdTag').textContent} (${currentMode.toUpperCase()}) ${attempts.length}/${MAX_ATTEMPTS}\n\n`;
       attempts.forEach(row => {
         row.forEach(item => {
           if (item.status === 'correct') text += '🟩';
-          else if (item.status === 'present') text += '🟨';
-          else text += '⬛';
+          else if (item.status === 'present') text += '⬛';
+          else text += '🟥';
         });
         text += '\n';
       });
+      text += `\n#Hexamertle\nhttps://halcekey.github.io/hexamertle/`;
       navigator.clipboard.writeText(text);
       alert('Copied to clipboard!');
     }
@@ -797,7 +828,7 @@ font-family: var(--font-serif);
     function checkFirstVisit() {
       const hasVisited = localStorage.getItem('hexametrdle_help_shown');
       if (!hasVisited) {
-        setModalLang('ja'); 
+        setModalLang('ja');
         openSourcesModal();
         localStorage.setItem('hexametrdle_help_shown', 'true');
       }
